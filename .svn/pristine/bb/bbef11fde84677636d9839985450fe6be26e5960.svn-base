@@ -1,0 +1,1958 @@
+com.feedback.UMFeedbackService -> com.feedback.a:
+    boolean c -> a
+    boolean getHasCheckedReply() -> a
+com.feedback.a.a -> com.feedback.a.a:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.util.Date e -> d
+    com.feedback.a.c f -> e
+    com.feedback.a.b g -> f
+    java.lang.String a() -> a
+    int compareTo(java.lang.Object) -> compareTo
+com.feedback.a.b -> com.feedback.a.b:
+    com.feedback.a.b a -> a
+    com.feedback.a.b b -> b
+    com.feedback.a.b c -> c
+    com.feedback.a.b[] d -> d
+    com.feedback.a.b[] values() -> values
+    com.feedback.a.b valueOf(java.lang.String) -> valueOf
+com.feedback.a.c -> com.feedback.a.c:
+    com.feedback.a.c a -> a
+    com.feedback.a.c b -> b
+    com.feedback.a.c c -> c
+    com.feedback.a.c[] d -> d
+    com.feedback.a.c[] values() -> values
+    com.feedback.a.c valueOf(java.lang.String) -> valueOf
+com.feedback.a.d -> com.feedback.a.d:
+    java.lang.String a -> a
+    com.feedback.a.e b -> b
+    java.lang.String c -> c
+    com.feedback.a.a d -> d
+    com.feedback.a.a e -> e
+    java.util.List f -> f
+    com.feedback.a.a a(int) -> a
+    void b(int) -> b
+    int compareTo(java.lang.Object) -> compareTo
+com.feedback.a.e -> com.feedback.a.e:
+    com.feedback.a.e a -> a
+    com.feedback.a.e b -> b
+    com.feedback.a.e c -> c
+    com.feedback.a.e[] d -> d
+    com.feedback.a.e[] values() -> values
+    com.feedback.a.e valueOf(java.lang.String) -> valueOf
+com.feedback.b.a -> com.feedback.b.a:
+    void a(android.content.Context,com.feedback.a.d) -> a
+    void b(android.content.Context) -> a
+    void b(android.content.Context,com.feedback.a.d) -> b
+com.feedback.b.b -> com.feedback.b.b:
+    java.lang.String a(org.json.JSONObject,java.lang.String) -> a
+    org.json.JSONObject a(android.content.Context,java.lang.String,int,int) -> a
+    org.json.JSONObject a(android.content.Context,java.lang.String,java.lang.String) -> a
+    boolean b(org.json.JSONObject) -> a
+    boolean c(org.json.JSONObject) -> b
+    boolean d(org.json.JSONObject) -> c
+    boolean e(org.json.JSONObject) -> d
+    boolean f(org.json.JSONObject) -> e
+    boolean a(org.json.JSONObject,java.lang.String,java.lang.String) -> a
+com.feedback.b.c -> com.feedback.b.c:
+    boolean a(android.content.Context,org.json.JSONObject) -> a
+    boolean b(android.content.Context,org.json.JSONObject) -> b
+    java.lang.String a(android.content.Context,org.json.JSONArray) -> a
+    java.lang.String d(android.content.Context,java.lang.String) -> d
+    java.util.List a(android.content.Context) -> a
+    void a(android.content.Context,java.lang.String) -> a
+    void c(android.content.Context,org.json.JSONObject) -> c
+    void d(android.content.Context,org.json.JSONObject) -> d
+    boolean e(android.content.Context,org.json.JSONObject) -> e
+    void a(android.content.SharedPreferences,java.lang.String,java.lang.String) -> a
+    void a(android.content.Context,java.lang.String,java.lang.String) -> a
+    void a(android.content.Context,com.feedback.a.d,int) -> a
+    com.feedback.a.d b(android.content.Context,java.lang.String) -> b
+    void c(android.content.Context,java.lang.String) -> c
+com.feedback.b.d -> com.feedback.b.d:
+    boolean a(java.lang.String) -> a
+    java.lang.String a(org.json.JSONObject,java.lang.String,java.lang.String) -> a
+    boolean a(java.lang.String,java.lang.String) -> a
+com.feedback.c.a -> com.feedback.c.a:
+    java.lang.String a -> a
+    org.json.JSONObject b -> b
+    android.content.Context c -> c
+    void run() -> run
+com.feedback.c.b -> com.feedback.c.b:
+    java.lang.String a -> a
+    android.content.Context b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    int f -> f
+    android.os.Handler g -> g
+    void run() -> run
+com.feedback.c.c -> com.feedback.c.c:
+    java.lang.String a -> a
+    org.json.JSONObject b -> b
+    android.content.Context c -> c
+    java.lang.Boolean a() -> a
+    java.lang.Object call() -> call
+com.feedback.ui.FeedbackConversation -> com.feedback.ui.FeedbackConversation:
+    android.content.Context a -> a
+    com.feedback.a.d e -> f
+    com.feedback.ui.c f -> g
+    android.widget.TextView g -> h
+    android.widget.EditText h -> i
+    android.widget.Button i -> j
+    com.feedback.ui.b j -> k
+    boolean b -> b
+    java.lang.String c -> c
+    boolean d -> d
+    java.util.concurrent.ExecutorService executorService -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    void onStop() -> onStop
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void setUserContext(android.content.Context) -> a
+    void onListItemClick(android.widget.ListView,android.view.View,int,long) -> onListItemClick
+    com.feedback.a.d a(com.feedback.ui.FeedbackConversation) -> a
+    void a(com.feedback.ui.FeedbackConversation,com.feedback.a.d) -> a
+    com.feedback.ui.c b(com.feedback.ui.FeedbackConversation) -> b
+    android.widget.EditText c(com.feedback.ui.FeedbackConversation) -> c
+    android.widget.Button d(com.feedback.ui.FeedbackConversation) -> d
+com.feedback.ui.FeedbackConversations -> com.feedback.ui.FeedbackConversations:
+    com.feedback.ui.f a -> a
+    android.widget.ImageButton b -> b
+    int[] h -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    void onStop() -> onStop
+    void onListItemClick(android.widget.ListView,android.view.View,int,long) -> onListItemClick
+    void onRestart() -> onRestart
+    boolean onContextItemSelected(android.view.MenuItem) -> onContextItemSelected
+    void b() -> a
+    void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo) -> onCreateContextMenu
+    int[] a() -> b
+com.feedback.ui.SendFeedback -> com.feedback.ui.SendFeedback:
+    android.widget.Spinner b -> b
+    android.widget.Spinner c -> c
+    android.widget.EditText d -> d
+    android.widget.TextView e -> e
+    android.widget.TextView f -> f
+    android.widget.ImageButton g -> g
+    org.json.JSONObject h -> h
+    boolean a -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    android.widget.EditText a(com.feedback.ui.SendFeedback) -> a
+    android.widget.Spinner b(com.feedback.ui.SendFeedback) -> b
+    android.widget.Spinner c(com.feedback.ui.SendFeedback) -> c
+    void a(com.feedback.ui.SendFeedback,org.json.JSONObject) -> a
+    org.json.JSONObject d(com.feedback.ui.SendFeedback) -> d
+com.feedback.ui.ThreadView -> com.feedback.ui.ThreadView:
+    void onSizeChanged(int,int,int,int) -> onSizeChanged
+com.feedback.ui.a -> com.feedback.ui.a:
+    com.feedback.ui.FeedbackConversation a -> a
+    void onClick(android.view.View) -> onClick
+com.feedback.ui.b -> com.feedback.ui.b:
+    com.feedback.ui.FeedbackConversation a -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.feedback.ui.c -> com.feedback.ui.c:
+    android.content.Context a -> a
+    android.view.LayoutInflater b -> b
+    java.lang.String d -> c
+    com.feedback.a.d e -> d
+    int[] f -> e
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void a(com.feedback.a.d) -> a
+    int[] a() -> a
+com.feedback.ui.d -> com.feedback.ui.d:
+    android.widget.LinearLayout a -> a
+    android.widget.RelativeLayout b -> b
+    android.widget.TextView c -> c
+    android.widget.TextView d -> d
+    android.view.View e -> e
+    android.view.View f -> f
+    com.feedback.ui.c g -> g
+com.feedback.ui.e -> com.feedback.ui.e:
+    com.feedback.ui.FeedbackConversations a -> a
+    void onClick(android.view.View) -> onClick
+com.feedback.ui.f -> com.feedback.ui.f:
+    com.feedback.ui.g a -> a
+    com.feedback.ui.FeedbackConversations b -> b
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.feedback.ui.g -> com.feedback.ui.g:
+    android.view.LayoutInflater a -> a
+    android.content.Context b -> b
+    java.util.List c -> c
+    java.lang.String f -> d
+    java.lang.String g -> e
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    com.feedback.a.d b(int) -> a
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void a(java.util.List) -> a
+com.feedback.ui.h -> com.feedback.ui.h:
+    android.widget.ImageView a -> a
+    android.widget.TextView b -> b
+    android.widget.TextView c -> c
+    android.widget.TextView d -> d
+    com.feedback.ui.g e -> e
+com.feedback.ui.i -> com.feedback.ui.i:
+    com.feedback.ui.SendFeedback a -> a
+    void onClick(android.view.View) -> onClick
+com.feedback.ui.j -> com.feedback.ui.j:
+    com.feedback.ui.SendFeedback a -> a
+    void onClick(android.view.View) -> onClick
+com.mobclick.android.MobclickAgent -> com.a.a.a:
+    com.mobclick.android.MobclickAgent a -> f
+    int b -> g
+    android.content.Context c -> h
+    android.os.Handler d -> i
+    com.mobclick.android.UmengUpdateListener i -> j
+    com.mobclick.android.UmengOnlineConfigureListener j -> k
+    java.lang.String GPU_VENDER -> a
+    java.lang.String GPU_RENDERER -> b
+    boolean mUpdateOnlyWifi -> c
+    boolean mUseLocationService -> d
+    org.json.JSONObject k -> l
+    boolean updateAutoPopup -> e
+    void onPause(android.content.Context) -> a
+    void onResume(android.content.Context) -> b
+    void onError(android.content.Context) -> c
+    void update(android.content.Context) -> d
+    java.lang.String b(android.content.Context) -> f
+    void a$62dc3a79(android.content.Context,java.lang.String) -> a
+    void c(android.content.Context) -> g
+    void a(android.content.Context,java.lang.String) -> b
+    void a$182ca992(android.content.Context,java.lang.String,java.lang.String,int) -> a
+    void b$5ffc00fd(android.content.Context) -> h
+    android.app.AlertDialog b(android.content.Context,org.json.JSONObject) -> d
+    java.lang.String a$bc2fcf7(android.content.Context,org.json.JSONObject,java.lang.String,boolean) -> a
+    boolean a(java.lang.String,android.content.Context) -> a
+    java.lang.String a(java.io.InputStream) -> a
+    org.json.JSONObject f(android.content.Context) -> i
+    void g(android.content.Context) -> j
+    android.content.SharedPreferences h(android.content.Context) -> k
+    android.content.SharedPreferences i(android.content.Context) -> l
+    android.content.SharedPreferences j(android.content.Context) -> m
+    java.lang.String l(android.content.Context) -> n
+    android.content.SharedPreferences a(android.content.Context) -> e
+    java.lang.String c() -> b
+    java.io.File e(android.content.Context,org.json.JSONObject) -> e
+    android.content.SharedPreferences m(android.content.Context) -> o
+    com.mobclick.android.MobclickAgent a() -> a
+    void a$4bdae0f6(android.content.Context,org.json.JSONObject) -> a
+    void b$4bdae0f6(android.content.Context,org.json.JSONObject) -> b
+    void c$4bdae0f6(android.content.Context,org.json.JSONObject) -> c
+    void a(com.mobclick.android.MobclickAgent,android.content.Context) -> a
+    void a$7e5fd124(com.mobclick.android.MobclickAgent,android.content.Context,java.lang.String) -> a
+    void a$3c668592(com.mobclick.android.MobclickAgent,android.content.Context) -> b
+    void a$2c2631e3(com.mobclick.android.MobclickAgent,android.content.Context,java.lang.String,java.lang.String,int) -> a
+    void a(android.content.Context,java.io.File) -> a
+com.mobclick.android.UmengConstants -> com.a.a.b:
+    boolean enableCacheInUpdate -> a
+    boolean testMode -> b
+    boolean LOCATION_OPEN -> c
+    boolean ACTIVITY_DURATION_OPEN -> d
+    boolean canResume -> e
+    boolean canCollectionUserInfo -> f
+    java.lang.String channel -> g
+    java.lang.String LAST_SEND_TIME -> h
+    java.lang.Object saveOnlineConfigMutex -> i
+    java.lang.String[] APPLOG_URL_LIST -> j
+    java.lang.String[] UPDATE_URL_LIST -> k
+    boolean COMPRESS_DATA -> l
+com.mobclick.android.UmengOnlineConfigureListener -> com.a.a.c:
+com.mobclick.android.UmengUpdateListener -> com.a.a.d:
+com.mobclick.android.UpdateStatus -> com.a.a.e:
+    int Yes -> a
+    int No -> b
+    int NoneWifi -> c
+    int Timeout -> d
+com.mobclick.android.a -> com.a.a.f:
+    android.content.Context a -> a
+    int b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    java.lang.String f -> f
+    android.app.Notification g -> g
+    android.app.NotificationManager h -> h
+    int i -> i
+    boolean j -> j
+    boolean k -> k
+    int l -> l
+    android.os.Handler m -> m
+    boolean b() -> a
+    int a(java.lang.String,java.lang.String) -> a
+    void c() -> b
+    void d() -> c
+    boolean f() -> d
+    java.lang.String a(java.lang.String,java.lang.String,int) -> a
+    java.lang.String a(com.mobclick.android.a) -> a
+    java.lang.String b(com.mobclick.android.a) -> b
+    android.content.Context c(com.mobclick.android.a) -> c
+    void a$54465278(com.mobclick.android.a) -> d
+    int d(com.mobclick.android.a) -> e
+    boolean e(com.mobclick.android.a) -> f
+    void b(com.mobclick.android.a,boolean) -> a
+com.mobclick.android.b -> com.a.a.g:
+    com.mobclick.android.a a -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.mobclick.android.c -> com.a.a.h:
+    com.mobclick.android.a a -> a
+    void run() -> run
+com.mobclick.android.d -> com.a.a.i:
+    int a -> a
+    int b -> b
+    int c -> c
+com.mobclick.android.e -> com.a.a.j:
+    android.location.LocationManager a -> a
+    android.content.Context b -> b
+    android.location.Location a() -> a
+com.mobclick.android.f -> com.a.a.k:
+    android.content.Context a -> a
+    java.io.File b -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.mobclick.android.g -> com.a.a.l:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.mobclick.android.h -> com.a.a.m:
+    android.content.Context a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.mobclick.android.i -> com.a.a.n:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.mobclick.android.j -> com.a.a.o:
+    java.lang.Object a -> a
+    android.content.Context b -> b
+    int c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    java.lang.String f -> f
+    java.lang.String g -> g
+    int h -> h
+    void run() -> run
+com.mobclick.android.k -> com.a.a.p:
+    java.lang.Object a -> a
+    com.mobclick.android.MobclickAgent b -> b
+    android.content.Context c -> c
+    org.json.JSONObject d -> d
+    void run() -> run
+com.mobclick.android.l -> com.a.a.q:
+    java.lang.String a -> a
+    int b -> b
+    void a(android.content.Context) -> a
+    boolean a(android.content.Context,java.lang.String) -> a
+    java.lang.String b(android.content.Context) -> b
+    java.lang.String a(java.lang.String) -> c
+    java.lang.String c(android.content.Context) -> c
+    java.lang.String i(android.content.Context) -> h
+    java.lang.String a() -> b
+    byte[] c(java.lang.String) -> a
+    java.lang.String a(java.util.Date) -> a
+    java.lang.String b() -> a
+    java.util.Date d(java.lang.String) -> b
+    org.json.JSONObject e(android.content.Context) -> d
+    java.lang.String[] f(android.content.Context) -> e
+    java.lang.String g(android.content.Context) -> f
+    boolean h(android.content.Context) -> g
+    int a(android.content.Context,java.lang.String,java.lang.String) -> a
+    org.json.JSONObject k(android.content.Context) -> i
+com.tyt.bbs.ArticleActivity -> com.tyt.bbs.ArticleActivity:
+    android.widget.ListView mArticleList -> c
+    android.widget.ProgressBar mProgressBar -> d
+    com.tyt.bbs.parser.ArticleParser mParser -> e
+    com.tyt.bbs.adapter.ArticelAdapter mAdapter -> f
+    java.lang.String articleUrl -> g
+    java.lang.String fullText -> h
+    android.widget.AutoCompleteTextView mZhuanTieBoard -> i
+    android.widget.EditText replyContentEditText -> j
+    android.widget.EditText passwordEditText -> k
+    android.widget.EditText userNameEditText -> l
+    android.widget.EditText replyTitleEditText -> m
+    java.lang.String fileLink -> n
+    java.lang.String reid -> o
+    java.lang.String board -> p
+    java.lang.String file -> q
+    java.lang.String testPrefix -> r
+    android.view.View dv -> s
+    android.view.View loginLayout -> t
+    android.widget.TextView tv_posttitle -> u
+    java.lang.String user -> v
+    java.lang.String pswd -> w
+    android.widget.Toast mToast -> x
+    android.widget.TextView tv_postno -> y
+    boolean mGetMore -> z
+    android.content.SharedPreferences sp -> a
+    java.io.File tempFile -> b
+    java.lang.Runnable FreshListRunnable -> A
+    android.os.Handler handler -> B
+    java.util.ArrayList filePath -> C
+    int postType -> D
+    void onCreate(android.os.Bundle) -> onCreate
+    android.app.Dialog onCreateDialog(int) -> onCreateDialog
+    void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo) -> onCreateContextMenu
+    boolean onContextItemSelected(android.view.MenuItem) -> onContextItemSelected
+    void Tip(java.lang.String) -> a
+    java.lang.String newPostZhuanTie() -> a
+    java.lang.String newPostPic(java.lang.String) -> b
+    java.lang.String newPost() -> b
+    void onClick(android.view.View) -> onClick
+    void restoreCookie() -> c
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    android.widget.ProgressBar access$0(com.tyt.bbs.ArticleActivity) -> a
+    android.widget.ListView access$1(com.tyt.bbs.ArticleActivity) -> b
+    com.tyt.bbs.parser.ArticleParser access$2(com.tyt.bbs.ArticleActivity) -> c
+    java.lang.String access$3(com.tyt.bbs.ArticleActivity) -> d
+    android.os.Handler access$4(com.tyt.bbs.ArticleActivity) -> e
+    void access$5(com.tyt.bbs.ArticleActivity,com.tyt.bbs.parser.ArticleParser) -> a
+    void access$6(com.tyt.bbs.ArticleActivity,java.lang.String) -> a
+    com.tyt.bbs.adapter.ArticelAdapter access$7(com.tyt.bbs.ArticleActivity) -> f
+    android.widget.TextView access$8(com.tyt.bbs.ArticleActivity) -> g
+    android.widget.EditText access$9(com.tyt.bbs.ArticleActivity) -> h
+    void access$10(com.tyt.bbs.ArticleActivity,com.tyt.bbs.adapter.ArticelAdapter) -> a
+    android.widget.TextView access$11(com.tyt.bbs.ArticleActivity) -> i
+    int access$12(com.tyt.bbs.ArticleActivity) -> j
+    java.lang.String access$13(com.tyt.bbs.ArticleActivity) -> k
+    java.util.ArrayList access$14(com.tyt.bbs.ArticleActivity) -> l
+    java.lang.String access$15(com.tyt.bbs.ArticleActivity,java.lang.String) -> b
+    java.lang.String access$16(com.tyt.bbs.ArticleActivity) -> m
+    java.lang.String access$17(com.tyt.bbs.ArticleActivity) -> n
+    java.lang.String access$18(com.tyt.bbs.ArticleActivity) -> o
+    void access$19(com.tyt.bbs.ArticleActivity) -> p
+    java.lang.Runnable access$20(com.tyt.bbs.ArticleActivity) -> q
+    void access$21(com.tyt.bbs.ArticleActivity,java.lang.String) -> c
+    java.lang.String access$22(com.tyt.bbs.ArticleActivity) -> r
+    void access$23(com.tyt.bbs.ArticleActivity,java.lang.String) -> d
+    java.lang.String access$24(com.tyt.bbs.ArticleActivity) -> s
+    android.widget.EditText access$25(com.tyt.bbs.ArticleActivity) -> t
+    void access$26(com.tyt.bbs.ArticleActivity,java.lang.String) -> e
+    void access$27$407c43fd(com.tyt.bbs.ArticleActivity) -> u
+    boolean access$28(com.tyt.bbs.ArticleActivity) -> v
+com.tyt.bbs.ArticleActivity$1 -> com.tyt.bbs.a:
+    com.tyt.bbs.ArticleActivity this$0 -> a
+    void run() -> run
+com.tyt.bbs.ArticleActivity$2 -> com.tyt.bbs.b:
+    com.tyt.bbs.ArticleActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.tyt.bbs.ArticleActivity$3 -> com.tyt.bbs.c:
+    com.tyt.bbs.ArticleActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.tyt.bbs.ArticleActivity$4 -> com.tyt.bbs.d:
+    com.tyt.bbs.ArticleActivity this$0 -> a
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+com.tyt.bbs.ArticleActivity$ArticleListload -> com.tyt.bbs.e:
+    com.tyt.bbs.ArticleActivity this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.lang.Void doInBackground$62a44833() -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.tyt.bbs.ArticleActivity$DoPost -> com.tyt.bbs.f:
+    com.tyt.bbs.ArticleActivity this$0 -> a
+    void onPreExecute() -> onPreExecute
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.tyt.bbs.BaseActivity -> com.tyt.bbs.BaseActivity:
+    void onResume() -> onResume
+    void onPause() -> onPause
+com.tyt.bbs.CollectionActivity -> com.tyt.bbs.CollectionActivity:
+    android.widget.ListView collectionList -> a
+    android.widget.SimpleCursorAdapter mAdapter -> b
+    android.widget.ProgressBar mProgressBar -> c
+    com.tyt.bbs.parser.ArticleParser mParser -> d
+    com.tyt.bbs.adapter.ArticelAdapter mArticelAdapter -> e
+    int _id -> f
+    int mode -> g
+    android.os.Handler handler -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onContextItemSelected(android.view.MenuItem) -> onContextItemSelected
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void onClick(android.view.View) -> onClick
+    android.widget.SimpleCursorAdapter access$0(com.tyt.bbs.CollectionActivity) -> a
+    com.tyt.bbs.parser.ArticleParser access$1(com.tyt.bbs.CollectionActivity) -> b
+    void access$2(com.tyt.bbs.CollectionActivity,com.tyt.bbs.adapter.ArticelAdapter) -> a
+    android.widget.ListView access$3(com.tyt.bbs.CollectionActivity) -> c
+    com.tyt.bbs.adapter.ArticelAdapter access$4(com.tyt.bbs.CollectionActivity) -> d
+    android.widget.ProgressBar access$5(com.tyt.bbs.CollectionActivity) -> e
+    void access$6(com.tyt.bbs.CollectionActivity,int) -> a
+    android.os.Handler access$7(com.tyt.bbs.CollectionActivity) -> f
+    void access$8(com.tyt.bbs.CollectionActivity,com.tyt.bbs.parser.ArticleParser) -> a
+    int access$9(com.tyt.bbs.CollectionActivity) -> g
+    void access$10(com.tyt.bbs.CollectionActivity,int) -> b
+com.tyt.bbs.CollectionActivity$1 -> com.tyt.bbs.g:
+    com.tyt.bbs.CollectionActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.tyt.bbs.CollectionActivity$2 -> com.tyt.bbs.h:
+    com.tyt.bbs.CollectionActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.tyt.bbs.CollectionActivity$3 -> com.tyt.bbs.i:
+    com.tyt.bbs.CollectionActivity this$0 -> a
+    void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo) -> onCreateContextMenu
+com.tyt.bbs.CollectionActivity$4 -> com.tyt.bbs.j:
+    com.tyt.bbs.CollectionActivity this$0 -> a
+    boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long) -> onItemLongClick
+com.tyt.bbs.CollectionActivity$Listload -> com.tyt.bbs.k:
+    java.lang.String fullText -> a
+    com.tyt.bbs.CollectionActivity this$0 -> b
+    void onPreExecute() -> onPreExecute
+    java.lang.Void doInBackground$62a44833() -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.tyt.bbs.FavoriteActivity -> com.tyt.bbs.FavoriteActivity:
+    java.lang.String TAG -> a
+    int NEED_LOGIN -> b
+    int FAV_ADD -> c
+    int FAV_DEL -> d
+    int DIALOG_ADDFAVOR -> e
+    int DIALOG_LOGIN -> f
+    java.lang.String URL -> g
+    java.lang.String user -> h
+    java.lang.String pswd -> i
+    android.widget.ListView ls_Board -> j
+    com.tyt.bbs.adapter.FavAdapter mAdapter -> k
+    android.widget.AutoCompleteTextView mAddBoard -> l
+    java.util.ArrayList mDelBoardList -> m
+    android.widget.Button btn_selectall -> n
+    android.view.View layout -> o
+    android.widget.EditText passwordEditText -> p
+    android.widget.EditText userNameEditText -> q
+    int mAction -> r
+    int mSelectAll -> s
+    java.lang.Runnable loadingRunnable -> t
+    android.os.Handler mHandler -> u
+    void onCreate(android.os.Bundle) -> onCreate
+    void onClick(android.view.View) -> onClick
+    void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo) -> onCreateContextMenu
+    boolean onContextItemSelected(android.view.MenuItem) -> onContextItemSelected
+    android.app.Dialog onCreateDialog(int) -> onCreateDialog
+    void access$0(com.tyt.bbs.FavoriteActivity,java.io.File) -> a
+    android.os.Handler access$1(com.tyt.bbs.FavoriteActivity) -> a
+    java.lang.String access$2(com.tyt.bbs.FavoriteActivity) -> b
+    void access$3(com.tyt.bbs.FavoriteActivity) -> c
+    android.widget.ListView access$4(com.tyt.bbs.FavoriteActivity) -> d
+    com.tyt.bbs.adapter.FavAdapter access$5(com.tyt.bbs.FavoriteActivity) -> e
+    android.widget.Button access$6(com.tyt.bbs.FavoriteActivity) -> f
+    android.view.View access$7(com.tyt.bbs.FavoriteActivity) -> g
+    int access$8(com.tyt.bbs.FavoriteActivity) -> h
+    java.util.ArrayList access$9(com.tyt.bbs.FavoriteActivity) -> i
+    android.widget.AutoCompleteTextView access$10(com.tyt.bbs.FavoriteActivity) -> j
+com.tyt.bbs.FavoriteActivity$1 -> com.tyt.bbs.l:
+    com.tyt.bbs.FavoriteActivity this$0 -> a
+    void run() -> run
+com.tyt.bbs.FavoriteActivity$2 -> com.tyt.bbs.m:
+    com.tyt.bbs.FavoriteActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.tyt.bbs.FavoriteActivity$3 -> com.tyt.bbs.n:
+    com.tyt.bbs.FavoriteActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.tyt.bbs.FavoriteActivity$DoGet -> com.tyt.bbs.o:
+    com.tyt.bbs.FavoriteActivity this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.lang.String newGetAddFav() -> a
+    java.lang.String newGetDelFav(java.lang.String) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.tyt.bbs.FileListActivity -> com.tyt.bbs.FileListActivity:
+    android.os.Handler handler -> a
+    int SELECT_PIC -> b
+    java.io.File mFile -> c
+    com.tyt.bbs.FileListActivity$MyFileFilter mFilter -> d
+    java.util.Comparator comparator -> e
+    com.tyt.bbs.adapter.ListFileAdapter mAdapter -> f
+    java.util.List mSubFile -> g
+    android.view.View layout -> h
+    android.widget.TextView tv -> i
+    android.widget.ProgressBar mProgressBar -> j
+    android.widget.ListView mListView -> k
+    android.widget.Button btn_selectOK -> l
+    java.util.ArrayList mListPicPath -> m
+    java.util.ArrayList checkId -> n
+    void onCreate(android.os.Bundle) -> onCreate
+    java.util.List getmSubFile() -> a
+    void onClick(android.view.View) -> onClick
+    com.tyt.bbs.adapter.ListFileAdapter access$0(com.tyt.bbs.FileListActivity) -> a
+    android.widget.TextView access$1(com.tyt.bbs.FileListActivity) -> b
+    java.io.File access$2(com.tyt.bbs.FileListActivity) -> c
+    android.view.View access$3(com.tyt.bbs.FileListActivity) -> d
+    java.util.ArrayList access$4(com.tyt.bbs.FileListActivity) -> e
+    android.widget.Button access$5(com.tyt.bbs.FileListActivity) -> f
+    void access$6(com.tyt.bbs.FileListActivity,java.io.File) -> a
+    void access$7(com.tyt.bbs.FileListActivity,java.util.ArrayList) -> a
+com.tyt.bbs.FileListActivity$1 -> com.tyt.bbs.p:
+    com.tyt.bbs.FileListActivity this$0 -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.tyt.bbs.FileListActivity$2 -> com.tyt.bbs.q:
+    com.tyt.bbs.FileListActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.tyt.bbs.FileListActivity$MyFileFilter -> com.tyt.bbs.r:
+    com.tyt.bbs.FileListActivity this$0 -> a
+    boolean accept(java.io.File) -> accept
+com.tyt.bbs.FileListActivity$MyHandler -> com.tyt.bbs.s:
+    com.tyt.bbs.FileListActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.tyt.bbs.LoginActivity -> com.tyt.bbs.LoginActivity:
+    android.widget.EditText usernameEditText -> a
+    android.widget.EditText passwordEditText -> b
+    android.widget.Button btn_login -> c
+    android.widget.CheckBox cb_autologin -> d
+    java.lang.String usr -> e
+    java.lang.String pswd -> f
+    int LOGIN_SUCESS -> g
+    int LOGIN_FAILED -> h
+    android.content.SharedPreferences sp -> i
+    java.lang.Runnable getWapsiteRunnable -> j
+    java.lang.Runnable loginRunnable -> k
+    android.os.Handler loginHandler -> l
+    void onCreate(android.os.Bundle) -> onCreate
+    void onClick(android.view.View) -> onClick
+    void ChangeUI(java.lang.Boolean) -> a
+    void loginProcess(java.lang.Boolean) -> b
+    void access$0(com.tyt.bbs.LoginActivity) -> a
+    android.os.Handler access$1(com.tyt.bbs.LoginActivity) -> b
+    java.lang.String access$2(com.tyt.bbs.LoginActivity) -> c
+    java.lang.String access$3(com.tyt.bbs.LoginActivity) -> d
+    android.content.SharedPreferences access$4(com.tyt.bbs.LoginActivity) -> e
+    android.widget.CheckBox access$5(com.tyt.bbs.LoginActivity) -> f
+    void access$6(com.tyt.bbs.LoginActivity,java.lang.Boolean) -> a
+com.tyt.bbs.LoginActivity$1 -> com.tyt.bbs.t:
+    com.tyt.bbs.LoginActivity this$0 -> a
+    void run() -> run
+com.tyt.bbs.LoginActivity$2 -> com.tyt.bbs.u:
+    com.tyt.bbs.LoginActivity this$0 -> a
+    void run() -> run
+com.tyt.bbs.LoginActivity$3 -> com.tyt.bbs.v:
+    com.tyt.bbs.LoginActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.tyt.bbs.MainActivity -> com.tyt.bbs.MainActivity:
+    android.widget.GridView mGridView -> a
+    android.view.View dv -> b
+    android.widget.ListView lv_colums -> c
+    android.widget.ListView lv_boards -> d
+    com.tyt.bbs.adapter.BoardsAdapter mColumsAdapter -> e
+    com.tyt.bbs.adapter.BoardsAdapter mBoardsAdapter -> f
+    android.widget.AutoCompleteTextView autoCompleteTextView -> g
+    android.os.Handler handler -> h
+    int[] ColumsId -> i
+    void onCreate(android.os.Bundle) -> onCreate
+    android.app.Dialog onCreateDialog(int) -> onCreateDialog
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+    void onClick(android.view.View) -> onClick
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    android.widget.GridView access$0(com.tyt.bbs.MainActivity) -> a
+    android.os.Handler access$1(com.tyt.bbs.MainActivity) -> b
+    void access$2(com.tyt.bbs.MainActivity,int) -> a
+com.tyt.bbs.MainActivity$1 -> com.tyt.bbs.w:
+    com.tyt.bbs.MainActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.tyt.bbs.MainActivity$2 -> com.tyt.bbs.x:
+    com.tyt.bbs.MainActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.tyt.bbs.MainActivity$getMsg -> com.tyt.bbs.y:
+    com.tyt.bbs.MainActivity this$0 -> a
+    java.util.ArrayList doInBackground(java.lang.String[]) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.tyt.bbs.MessageActivity -> com.tyt.bbs.MessageActivity:
+    com.tyt.bbs.view.ViewFlow viewFlow -> a
+    com.tyt.bbs.adapter.MsgListAdapter[] mAdapter -> b
+    android.widget.ListView[] mgsList -> c
+    android.widget.ProgressBar[] pBar -> d
+    com.tyt.bbs.entity.MessageItem msgitem -> e
+    android.widget.EditText replaytitle -> f
+    android.widget.EditText replyuser -> g
+    android.widget.EditText replycontent -> h
+    int onPosition -> i
+    android.widget.AdapterView$OnItemClickListener listener -> j
+    void onCreate(android.os.Bundle) -> onCreate
+    android.app.Dialog onCreateDialog(int) -> onCreateDialog
+    void onClick(android.view.View) -> onClick
+    com.tyt.bbs.adapter.MsgListAdapter[] access$0(com.tyt.bbs.MessageActivity) -> a
+    int access$1(com.tyt.bbs.MessageActivity) -> b
+    void access$2(com.tyt.bbs.MessageActivity,com.tyt.bbs.entity.MessageItem) -> a
+    android.widget.ProgressBar[] access$3(com.tyt.bbs.MessageActivity) -> c
+    void access$4(com.tyt.bbs.MessageActivity,int) -> a
+com.tyt.bbs.MessageActivity$1 -> com.tyt.bbs.z:
+    com.tyt.bbs.MessageActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.tyt.bbs.MessageActivity$2 -> com.tyt.bbs.aa:
+    com.tyt.bbs.MessageActivity this$0 -> a
+    void onSwitched$5359dc9a(int) -> a
+com.tyt.bbs.MessageActivity$LoadContentTask -> com.tyt.bbs.ab:
+    com.tyt.bbs.MessageActivity this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+    void onPostExecute(java.lang.Object) -> onPostExecute
+com.tyt.bbs.PaintAcitivity -> com.tyt.bbs.PaintAcitivity:
+    com.tyt.bbs.PaintAcitivity$MyView myView -> a
+    android.os.Handler handler -> d
+    java.lang.String board -> b
+    android.widget.LinearLayout layout -> c
+    android.graphics.Paint mPaint -> e
+    android.graphics.MaskFilter mEmboss -> f
+    android.graphics.MaskFilter mBlur -> g
+    java.lang.Runnable upPaint -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    void colorChanged(int) -> a
+    void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo) -> onCreateContextMenu
+    boolean onContextItemSelected(android.view.MenuItem) -> onContextItemSelected
+    void onClick(android.view.View) -> onClick
+    java.lang.String newPostPic(android.graphics.Bitmap) -> a
+    android.app.Dialog onCreateDialog(int) -> onCreateDialog
+    java.lang.String access$0(com.tyt.bbs.PaintAcitivity,android.graphics.Bitmap) -> a
+    android.graphics.Paint access$1(com.tyt.bbs.PaintAcitivity) -> a
+com.tyt.bbs.PaintAcitivity$1 -> com.tyt.bbs.ac:
+    com.tyt.bbs.PaintAcitivity this$0 -> a
+    void run() -> run
+com.tyt.bbs.PaintAcitivity$MyView -> com.tyt.bbs.ad:
+    android.graphics.Bitmap mBitmap -> a
+    android.graphics.Canvas mCanvas -> c
+    android.graphics.Path mPath -> d
+    android.graphics.Paint mBitmapPaint -> e
+    float mX -> f
+    float mY -> g
+    com.tyt.bbs.PaintAcitivity this$0 -> b
+    void onSizeChanged(int,int,int,int) -> onSizeChanged
+    void onDraw(android.graphics.Canvas) -> onDraw
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+com.tyt.bbs.PostsListActivity -> com.tyt.bbs.PostsListActivity:
+    android.widget.ProgressBar mProgressBar -> a
+    int postType -> b
+    java.util.ArrayList filePath -> c
+    int DIALOG_REPLAY -> d
+    int DIALOG_LOGIN -> e
+    int NEED_LOGIN -> f
+    int LOAD_POSTS -> g
+    int POST_PIC -> h
+    int POST_PIC_DONE -> i
+    android.widget.EditText replyContentEditText -> j
+    android.widget.EditText passwordEditText -> k
+    android.widget.EditText usernameEditText -> l
+    android.widget.EditText replyTitleEditText -> m
+    android.view.View dv -> n
+    android.view.View loginLayout -> o
+    java.lang.String user -> p
+    java.lang.String pswd -> q
+    java.lang.String board -> r
+    com.tyt.bbs.parser.PostParser mParser -> s
+    com.tyt.bbs.adapter.PostListAdapter mAdapter -> t
+    android.widget.ListView postList -> u
+    java.lang.Boolean isThemeType -> v
+    android.widget.TextView tv_readtype -> w
+    boolean mGetMore -> x
+    android.widget.Toast mToast -> y
+    android.content.SharedPreferences sp -> z
+    java.lang.Runnable FreshListRunnable -> A
+    android.os.Handler replayHandler -> B
+    void onCreate(android.os.Bundle) -> onCreate
+    android.app.Dialog onCreateDialog(int) -> onCreateDialog
+    void restoreCookie() -> a
+    void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo) -> onCreateContextMenu
+    boolean onContextItemSelected(android.view.MenuItem) -> onContextItemSelected
+    void onClick(android.view.View) -> onClick
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void Tip(java.lang.String) -> a
+    android.widget.ProgressBar access$0(com.tyt.bbs.PostsListActivity) -> a
+    android.widget.ListView access$1(com.tyt.bbs.PostsListActivity) -> b
+    com.tyt.bbs.parser.PostParser access$2(com.tyt.bbs.PostsListActivity) -> c
+    java.lang.String access$3(com.tyt.bbs.PostsListActivity) -> d
+    void access$4(com.tyt.bbs.PostsListActivity,com.tyt.bbs.parser.PostParser) -> a
+    com.tyt.bbs.adapter.PostListAdapter access$5(com.tyt.bbs.PostsListActivity) -> e
+    java.lang.Boolean access$6(com.tyt.bbs.PostsListActivity) -> f
+    android.widget.EditText access$7(com.tyt.bbs.PostsListActivity) -> g
+    void access$8(com.tyt.bbs.PostsListActivity,boolean) -> a
+    android.os.Handler access$9(com.tyt.bbs.PostsListActivity) -> h
+    java.lang.Runnable access$10(com.tyt.bbs.PostsListActivity) -> i
+    void access$11(com.tyt.bbs.PostsListActivity,com.tyt.bbs.adapter.PostListAdapter) -> a
+    int access$12(com.tyt.bbs.PostsListActivity) -> j
+    java.lang.String access$13(com.tyt.bbs.PostsListActivity) -> k
+    java.lang.String access$14(com.tyt.bbs.PostsListActivity) -> l
+    java.util.ArrayList access$15(com.tyt.bbs.PostsListActivity) -> m
+    android.widget.EditText access$16(com.tyt.bbs.PostsListActivity) -> n
+    android.content.SharedPreferences access$17(com.tyt.bbs.PostsListActivity) -> o
+    void access$18(com.tyt.bbs.PostsListActivity) -> p
+    boolean access$19(com.tyt.bbs.PostsListActivity) -> q
+com.tyt.bbs.PostsListActivity$1 -> com.tyt.bbs.ae:
+    com.tyt.bbs.PostsListActivity this$0 -> a
+    void run() -> run
+com.tyt.bbs.PostsListActivity$2 -> com.tyt.bbs.af:
+    com.tyt.bbs.PostsListActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.tyt.bbs.PostsListActivity$3 -> com.tyt.bbs.ag:
+    com.tyt.bbs.PostsListActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.tyt.bbs.PostsListActivity$4 -> com.tyt.bbs.ah:
+    com.tyt.bbs.PostsListActivity this$0 -> a
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+com.tyt.bbs.PostsListActivity$DoPost -> com.tyt.bbs.ai:
+    com.tyt.bbs.PostsListActivity this$0 -> a
+    java.lang.String newPostPic(java.lang.String) -> a
+    java.lang.String newPost() -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.tyt.bbs.PostsListActivity$PostsListload -> com.tyt.bbs.aj:
+    com.tyt.bbs.PostsListActivity this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.lang.Void doInBackground$62a44833() -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.tyt.bbs.ProfileActivity -> com.tyt.bbs.ProfileActivity:
+    android.widget.TextView tv_profile -> a
+    java.lang.String user -> b
+    java.lang.String URL -> c
+    void onCreate(android.os.Bundle) -> onCreate
+com.tyt.bbs.R -> com.tyt.bbs.ak:
+com.tyt.bbs.R$styleable -> com.tyt.bbs.al:
+    int[] CircleFlowIndicator -> a
+    int[] TitleFlowIndicator -> b
+    int[] ViewFlow -> c
+com.tyt.bbs.RecommendActivity -> com.tyt.bbs.RecommendActivity:
+    android.widget.ListView mToptenList -> a
+    android.widget.ProgressBar mProgressBar -> b
+    com.tyt.bbs.parser.WebTopTenParser mParser -> c
+    com.tyt.bbs.adapter.TopTenAdapter mAdapter -> d
+    java.lang.Boolean isFresh -> e
+    int STYLE_RECOMMEND -> f
+    int STYLE_TOPTEN -> g
+    android.widget.AdapterView$OnItemClickListener topTenItemOnClick -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    com.tyt.bbs.adapter.TopTenAdapter access$0(com.tyt.bbs.RecommendActivity) -> a
+    android.widget.ProgressBar access$1(com.tyt.bbs.RecommendActivity) -> b
+    com.tyt.bbs.parser.WebTopTenParser access$2(com.tyt.bbs.RecommendActivity) -> c
+    java.lang.Boolean access$3(com.tyt.bbs.RecommendActivity) -> d
+    void access$4(com.tyt.bbs.RecommendActivity,com.tyt.bbs.adapter.TopTenAdapter) -> a
+    android.widget.ListView access$5(com.tyt.bbs.RecommendActivity) -> e
+com.tyt.bbs.RecommendActivity$1 -> com.tyt.bbs.am:
+    com.tyt.bbs.RecommendActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.tyt.bbs.RecommendActivity$ListLoad -> com.tyt.bbs.an:
+    com.tyt.bbs.RecommendActivity this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.lang.Boolean doInBackground$5f8445a4() -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.tyt.bbs.SettingActivity -> com.tyt.bbs.SettingActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void onPause() -> onPause
+com.tyt.bbs.TopTenActivity -> com.tyt.bbs.TopTenActivity:
+    android.widget.ListView mToptenList -> a
+    android.widget.ProgressBar mProgressBar -> b
+    android.widget.ImageButton btn_top10refresh -> c
+    android.view.animation.Animation animation -> d
+    com.tyt.bbs.parser.WebTopTenParser mColumnParser -> e
+    com.tyt.bbs.adapter.TopTenAdapter mAdapter -> f
+    int STYLE_TOPTEN -> g
+    android.widget.AdapterView$OnItemClickListener topTenItemOnClick -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    void onClick(android.view.View) -> onClick
+    com.tyt.bbs.adapter.TopTenAdapter access$0(com.tyt.bbs.TopTenActivity) -> a
+    android.widget.ListView access$1(com.tyt.bbs.TopTenActivity) -> b
+    android.widget.ProgressBar access$2(com.tyt.bbs.TopTenActivity) -> c
+    com.tyt.bbs.parser.WebTopTenParser access$3(com.tyt.bbs.TopTenActivity) -> d
+    android.widget.ImageButton access$4(com.tyt.bbs.TopTenActivity) -> e
+com.tyt.bbs.TopTenActivity$1 -> com.tyt.bbs.ao:
+    com.tyt.bbs.TopTenActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.tyt.bbs.TopTenActivity$ListLoad -> com.tyt.bbs.ap:
+    com.tyt.bbs.TopTenActivity this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.lang.Void doInBackground$10299ca() -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.tyt.bbs.adapter.ArticelAdapter -> com.tyt.bbs.a.a:
+    android.view.LayoutInflater inflater -> b
+    android.content.Context contxt -> c
+    java.lang.Boolean hasQuote -> a
+    java.util.ArrayList listArticels -> d
+    com.tyt.bbs.adapter.ArticelAdapter$ItemViewHolder holder -> e
+    com.tyt.bbs.entity.ArticleItem articleItem -> f
+    java.lang.Boolean isWrite -> g
+    android.os.Handler handler -> h
+    android.text.Html$ImageGetter imgGetter -> i
+    int getCount() -> getCount
+    com.tyt.bbs.entity.ArticleItem getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+    com.tyt.bbs.entity.ArticleItem access$1(com.tyt.bbs.adapter.ArticelAdapter) -> a
+com.tyt.bbs.adapter.ArticelAdapter$1 -> com.tyt.bbs.a.b:
+    com.tyt.bbs.adapter.ArticelAdapter this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.tyt.bbs.adapter.ArticelAdapter$2 -> com.tyt.bbs.a.c:
+    android.graphics.drawable.Drawable drawable -> b
+    com.tyt.bbs.adapter.ArticelAdapter this$0 -> a
+    android.graphics.drawable.Drawable getDrawable(java.lang.String) -> getDrawable
+com.tyt.bbs.adapter.ArticelAdapter$ItemViewHolder -> com.tyt.bbs.a.d:
+    android.widget.TextView textView_time -> a
+    android.widget.TextView textView_article -> b
+    android.widget.TextView textView_author -> c
+    void access$0(com.tyt.bbs.adapter.ArticelAdapter$ItemViewHolder,android.widget.TextView) -> a
+    void access$1(com.tyt.bbs.adapter.ArticelAdapter$ItemViewHolder,android.widget.TextView) -> b
+    void access$2(com.tyt.bbs.adapter.ArticelAdapter$ItemViewHolder,android.widget.TextView) -> c
+    android.widget.TextView access$3(com.tyt.bbs.adapter.ArticelAdapter$ItemViewHolder) -> a
+    android.widget.TextView access$4(com.tyt.bbs.adapter.ArticelAdapter$ItemViewHolder) -> b
+    android.widget.TextView access$5(com.tyt.bbs.adapter.ArticelAdapter$ItemViewHolder) -> c
+com.tyt.bbs.adapter.BoardsAdapter -> com.tyt.bbs.a.e:
+    java.lang.String[] boards -> a
+    int selectpos -> b
+    android.view.LayoutInflater inflater -> c
+    android.widget.TextView tv_board -> d
+    int getCount() -> getCount
+    java.lang.String getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void setSelectpos(int) -> b
+    int getSelectpos() -> a
+    void setBoards(java.lang.String[]) -> a
+    java.lang.Object getItem(int) -> getItem
+com.tyt.bbs.adapter.DiffMsgAdapter -> com.tyt.bbs.a.f:
+    android.view.View[] itemView -> a
+    int[] viewId -> b
+    java.lang.String[] names -> c
+    android.view.LayoutInflater mInflater -> d
+    int getViewTypeCount() -> getViewTypeCount
+    int getCount() -> getCount
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.String getTitle(int) -> a
+    java.lang.Object getItem(int) -> getItem
+com.tyt.bbs.adapter.FavAdapter -> com.tyt.bbs.a.g:
+    java.util.ArrayList post -> a
+    java.util.ArrayList checkId -> b
+    android.view.LayoutInflater mLayoutInflater -> c
+    android.os.Handler mHandler -> d
+    java.lang.Boolean isDel -> e
+    void setCheckd(java.util.ArrayList) -> a
+    void setAllCheckd() -> a
+    void setAllUnChecked() -> b
+    java.util.ArrayList getChecked() -> c
+    int getCount() -> getCount
+    java.lang.String getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void setMode(java.lang.Boolean) -> a
+    boolean getMode() -> d
+    java.lang.Object getItem(int) -> getItem
+com.tyt.bbs.adapter.FavAdapter$ViewHolder -> com.tyt.bbs.a.h:
+    android.widget.TextView tv_boardname -> a
+    android.widget.ImageView iv_icon -> b
+    android.widget.CheckBox cb_select -> c
+com.tyt.bbs.adapter.ListFileAdapter -> com.tyt.bbs.a.i:
+    java.util.List mSubFile -> a
+    java.util.Map imageCache -> b
+    android.view.LayoutInflater mInflater -> c
+    java.util.concurrent.ExecutorService executorService -> d
+    android.graphics.Bitmap bitmap -> e
+    java.util.ArrayList checkId -> f
+    java.util.ArrayList getChecked() -> a
+    void setCheckd(java.util.ArrayList) -> a
+    void setAllUnCheckd() -> b
+    int getCount() -> getCount
+    java.io.File getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+com.tyt.bbs.adapter.ListFileAdapter$ViewHolder -> com.tyt.bbs.a.j:
+    android.widget.ImageView icon -> a
+    android.widget.TextView filename -> b
+com.tyt.bbs.adapter.MainAdapter -> com.tyt.bbs.a.k:
+    android.view.LayoutInflater inflater -> a
+    java.lang.String[] main -> b
+    int[] bg -> c
+    int getCount() -> getCount
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+com.tyt.bbs.adapter.MainAdapter$ViewHolder -> com.tyt.bbs.a.l:
+    android.widget.TextView app_name -> a
+    android.widget.ImageView iv_icon -> b
+com.tyt.bbs.adapter.MsgListAdapter -> com.tyt.bbs.a.m:
+    java.util.ArrayList msg -> a
+    android.view.LayoutInflater mLayoutInflater -> b
+    com.tyt.bbs.adapter.MsgListAdapter$MyImgGetter imgGetter -> c
+    int getCount() -> getCount
+    com.tyt.bbs.entity.MessageItem getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void setMsg(java.util.ArrayList) -> a
+    java.util.ArrayList getMsg() -> a
+    java.lang.Object getItem(int) -> getItem
+com.tyt.bbs.adapter.MsgListAdapter$MyImgGetter -> com.tyt.bbs.a.n:
+    android.graphics.drawable.Drawable drawable -> b
+    com.tyt.bbs.entity.MessageItem item -> c
+    com.tyt.bbs.adapter.MsgListAdapter this$0 -> a
+    android.graphics.drawable.Drawable getDrawable(java.lang.String) -> getDrawable
+    void setItem(com.tyt.bbs.entity.MessageItem) -> a
+com.tyt.bbs.adapter.MsgListAdapter$ViewHolder -> com.tyt.bbs.a.o:
+    android.widget.TextView title -> a
+    android.widget.TextView sender -> b
+    android.widget.TextView content -> c
+com.tyt.bbs.adapter.PostListAdapter -> com.tyt.bbs.a.p:
+    java.util.ArrayList post -> a
+    java.util.ArrayList repeat -> b
+    android.view.LayoutInflater mLayoutInflater -> c
+    java.util.Comparator comparator -> d
+    int getCount() -> getCount
+    com.tyt.bbs.entity.PostItem getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void setPost(java.util.ArrayList) -> a
+    java.lang.Object getItem(int) -> getItem
+com.tyt.bbs.adapter.PostListAdapter$1 -> com.tyt.bbs.a.q:
+    com.tyt.bbs.adapter.PostListAdapter this$0 -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.tyt.bbs.adapter.PostListAdapter$ViewHolder -> com.tyt.bbs.a.r:
+    android.widget.TextView titleTextView -> a
+    android.widget.TextView postTimeTextView -> b
+    android.widget.TextView postAuthorTextView -> c
+    android.widget.TextView postIndexTextView -> d
+com.tyt.bbs.adapter.SimpleCollectionAdapter -> com.tyt.bbs.a.s:
+    void setViewText(android.widget.TextView,java.lang.String) -> setViewText
+com.tyt.bbs.adapter.TopTenAdapter -> com.tyt.bbs.a.t:
+    int STYLE_TOPTEN -> b
+    int STYLE_RECOMMEND -> c
+    android.view.LayoutInflater inflater -> d
+    android.content.Context contxt -> e
+    java.util.ArrayList listTitles -> f
+    int mStyle -> g
+    java.lang.String[] Colums -> a
+    int getCount() -> getCount
+    com.tyt.bbs.entity.TopicItem getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.util.ArrayList getListTitles() -> a
+    void setListTitles(java.util.ArrayList) -> a
+    java.lang.Object getItem(int) -> getItem
+com.tyt.bbs.adapter.TopTenAdapter$ViewHolder -> com.tyt.bbs.a.u:
+    android.widget.TextView textView_title -> b
+    android.widget.TextView textView_board -> c
+    android.widget.TextView textView_authorid -> d
+    android.widget.TextView textView_time -> e
+    android.widget.TextView tv_Colums -> f
+    com.tyt.bbs.adapter.TopTenAdapter this$0 -> a
+    void access$0(com.tyt.bbs.adapter.TopTenAdapter$ViewHolder,android.widget.TextView) -> a
+    void access$1(com.tyt.bbs.adapter.TopTenAdapter$ViewHolder,android.widget.TextView) -> b
+    void access$2(com.tyt.bbs.adapter.TopTenAdapter$ViewHolder,android.widget.TextView) -> c
+    void access$3(com.tyt.bbs.adapter.TopTenAdapter$ViewHolder,android.widget.TextView) -> d
+    void access$4(com.tyt.bbs.adapter.TopTenAdapter$ViewHolder,android.widget.TextView) -> e
+    android.widget.TextView access$5(com.tyt.bbs.adapter.TopTenAdapter$ViewHolder) -> a
+    android.widget.TextView access$6(com.tyt.bbs.adapter.TopTenAdapter$ViewHolder) -> b
+    android.widget.TextView access$7(com.tyt.bbs.adapter.TopTenAdapter$ViewHolder) -> c
+    android.widget.TextView access$8(com.tyt.bbs.adapter.TopTenAdapter$ViewHolder) -> d
+    android.widget.TextView access$9(com.tyt.bbs.adapter.TopTenAdapter$ViewHolder) -> e
+com.tyt.bbs.dialog.ColorPickerDialog -> com.tyt.bbs.b.a:
+    com.tyt.bbs.dialog.ColorPickerDialog$OnColorChangedListener mListener -> a
+    int mInitialColor -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    com.tyt.bbs.dialog.ColorPickerDialog$OnColorChangedListener access$0(com.tyt.bbs.dialog.ColorPickerDialog) -> a
+com.tyt.bbs.dialog.ColorPickerDialog$1 -> com.tyt.bbs.b.b:
+    com.tyt.bbs.dialog.ColorPickerDialog this$0 -> a
+    void colorChanged(int) -> a
+com.tyt.bbs.dialog.ColorPickerDialog$ColorPickerView -> com.tyt.bbs.b.c:
+    android.graphics.Paint mPaint -> a
+    android.graphics.Paint mCenterPaint -> b
+    android.graphics.Paint mHSVPaint -> c
+    int[] mColors -> d
+    int[] mHSVColors -> e
+    boolean mRedrawHSV -> f
+    com.tyt.bbs.dialog.ColorPickerDialog$OnColorChangedListener mListener -> g
+    boolean mTrackingCenter -> h
+    boolean mHighlightCenter -> i
+    int CENTER_X -> j
+    int CENTER_Y -> k
+    int CENTER_RADIUS -> l
+    int OUTER_RADIUS -> m
+    int HSV_X -> n
+    int HSV_Y_TOP -> o
+    int HSV_Y_BOTOM -> p
+    void onDraw(android.graphics.Canvas) -> onDraw
+    void onMeasure(int,int) -> onMeasure
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    int ave(int,int,float) -> a
+com.tyt.bbs.dialog.ColorPickerDialog$OnColorChangedListener -> com.tyt.bbs.b.d:
+    void colorChanged(int) -> a
+com.tyt.bbs.dialog.LoginDialog -> com.tyt.bbs.b.e:
+    android.widget.EditText userNameEditText -> a
+    android.widget.EditText passwordEditText -> b
+    android.widget.Toast mToast -> c
+    java.lang.String pswd -> d
+    java.lang.String user -> e
+    void onClick(android.view.View) -> onClick
+    void Tip(java.lang.String) -> a
+com.tyt.bbs.entity.ArticleItem -> com.tyt.bbs.c.a:
+    java.lang.String time -> a
+    java.lang.String author -> b
+    java.lang.String article -> c
+    java.lang.String link -> d
+    java.util.Map imageCache -> e
+    java.lang.String getTime() -> a
+    void setTime(java.lang.String) -> a
+    java.lang.String getAuthor() -> b
+    void setAuthor(java.lang.String) -> b
+    java.lang.String getArticle() -> c
+    void setArticle(java.lang.String) -> c
+    java.lang.String getLink() -> d
+    void setLink(java.lang.String) -> d
+    java.util.Map getImageCache() -> e
+com.tyt.bbs.entity.MessageItem -> com.tyt.bbs.c.b:
+    java.lang.String title -> a
+    java.lang.String link -> b
+    java.lang.String content -> c
+    java.lang.String name -> d
+    java.util.Map imageCache -> e
+    void setTitle(java.lang.String) -> a
+    java.lang.String getTitle() -> a
+    void setLink(java.lang.String) -> b
+    java.lang.String getLink() -> b
+    void setContent(java.lang.String) -> c
+    java.lang.String getContent() -> c
+    java.lang.String toString() -> toString
+    void setName(java.lang.String) -> d
+    java.lang.String getName() -> d
+    java.util.Map getImageCache() -> e
+com.tyt.bbs.entity.PostItem -> com.tyt.bbs.c.c:
+    java.lang.String postIndex -> a
+    java.lang.String author -> b
+    java.lang.String title -> c
+    java.lang.String link -> d
+    java.lang.String time -> e
+    java.lang.Boolean isBottom -> f
+    void setAuthor(java.lang.String) -> a
+    java.lang.String getAuthor() -> a
+    void setTitle(java.lang.String) -> b
+    java.lang.String getTitle() -> b
+    void setLink(java.lang.String) -> c
+    java.lang.String getLink() -> c
+    void setPostIndex(java.lang.String) -> d
+    java.lang.String getPostIndex() -> d
+    void setTime(java.lang.String) -> e
+    java.lang.String getTime() -> e
+    void setIsBottom(java.lang.Boolean) -> a
+    java.lang.Boolean getIsbottom() -> f
+com.tyt.bbs.entity.TopicItem -> com.tyt.bbs.c.d:
+    int CATEGORY_RECOMMEND -> a
+    int CATEGORY_ALLTOPTEN -> b
+    java.lang.String board -> c
+    java.lang.String boardLink -> d
+    java.lang.String linkUrl -> e
+    java.lang.String title -> f
+    java.lang.String authorID -> g
+    java.lang.String time -> h
+    int category -> i
+    int columId -> j
+    java.lang.String getBoard() -> a
+    void setBoard(java.lang.String) -> a
+    java.lang.String getBoardLink() -> b
+    void setBoardLink(java.lang.String) -> b
+    java.lang.String getLinkUrl() -> c
+    void setLinkUrl(java.lang.String) -> c
+    java.lang.String getTitle() -> d
+    void setTitle(java.lang.String) -> d
+    java.lang.String getAuthorID() -> e
+    void setAuthorID(java.lang.String) -> e
+    void setTime(java.lang.String) -> f
+    java.lang.String getTime() -> f
+    void setCategory(int) -> a
+    void setColumId(int) -> b
+    int getColumId() -> g
+com.tyt.bbs.parser.ArticleParser -> com.tyt.bbs.d.a:
+    java.util.ArrayList articleLists -> a
+    java.lang.String articleUrl -> b
+    com.tyt.bbs.utils.ImageLoader imageLoader -> c
+    android.os.Handler handler -> d
+    java.lang.Boolean isStore -> e
+    int parserMode -> f
+    java.util.ArrayList getList() -> a
+    void setMode$13462e() -> b
+    java.lang.String parser() -> c
+    java.lang.String parser(java.lang.String) -> a
+    com.tyt.bbs.utils.ImageLoader access$0(com.tyt.bbs.parser.ArticleParser) -> a
+    java.lang.Boolean access$1(com.tyt.bbs.parser.ArticleParser) -> b
+    android.os.Handler access$2(com.tyt.bbs.parser.ArticleParser) -> c
+com.tyt.bbs.parser.ArticleParser$1 -> com.tyt.bbs.d.b:
+    android.graphics.drawable.Drawable drawable -> b
+    com.tyt.bbs.parser.ArticleParser this$0 -> a
+    com.tyt.bbs.entity.ArticleItem val$temp -> c
+    android.graphics.drawable.Drawable getDrawable(java.lang.String) -> getDrawable
+    void access$0(com.tyt.bbs.parser.ArticleParser$1,android.graphics.drawable.Drawable) -> a
+    com.tyt.bbs.parser.ArticleParser access$1(com.tyt.bbs.parser.ArticleParser$1) -> a
+com.tyt.bbs.parser.ArticleParser$1$1 -> com.tyt.bbs.d.c:
+    com.tyt.bbs.parser.ArticleParser$1 this$1 -> a
+    void imageLoaded(android.graphics.drawable.Drawable) -> a
+com.tyt.bbs.parser.PostParser -> com.tyt.bbs.d.d:
+    java.lang.String baseUrl -> a
+    java.lang.String themeUrl -> b
+    java.lang.String UrlPrefix -> c
+    java.lang.String board -> d
+    java.lang.String BoardMasters -> e
+    java.lang.String prelink -> f
+    java.lang.String nextlink -> g
+    int parserMode -> h
+    java.util.ArrayList post -> i
+    void setMode(int) -> a
+    java.lang.String getUrl(int,java.lang.Boolean) -> a
+    java.util.ArrayList parser(java.lang.Boolean) -> a
+    java.lang.String getBoardMasters() -> a
+com.tyt.bbs.parser.TopTenParser -> com.tyt.bbs.d.e:
+    com.tyt.bbs.parser.TopTenParser mTopTenParser -> a
+    java.lang.String select_table -> b
+    java.lang.String topTenUrl -> c
+    com.tyt.bbs.parser.TopTenParser getInstance() -> a
+    java.util.ArrayList parser() -> b
+com.tyt.bbs.parser.WebTopTenParser -> com.tyt.bbs.d.f:
+    int STYLE_TOPTEN -> a
+    int STYLE_RECOMMEND -> b
+    java.util.ArrayList topTens -> c
+    int mType -> d
+    java.lang.String select_table_recommend -> e
+    java.lang.String select_table_toptens -> f
+    java.lang.String select_table_alltoptens -> g
+    java.lang.String indexUrl -> h
+    java.util.ArrayList getList() -> a
+    com.tyt.bbs.entity.TopicItem getTr2TopicItem(org.jsoup.nodes.Element,int) -> a
+    com.tyt.bbs.parser.WebTopTenParser parser() -> b
+com.tyt.bbs.preference.DialogPreference -> com.tyt.bbs.preference.DialogPreference:
+com.tyt.bbs.provider.DataColums -> com.tyt.bbs.provider.a:
+com.tyt.bbs.provider.DataColums$PostData -> com.tyt.bbs.provider.b:
+    android.net.Uri CONTENT_URI -> a
+    java.lang.String[] COLUMNS -> b
+    java.lang.String[] TYPES -> c
+com.tyt.bbs.provider.DataContentProvider -> com.tyt.bbs.provider.DataContentProvider:
+    android.content.UriMatcher sUriMatcher -> a
+    com.tyt.bbs.provider.DatabaseHelper mOpenHelper -> b
+    boolean onCreate() -> onCreate
+    android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String) -> query
+    java.lang.String getType(android.net.Uri) -> getType
+    android.net.Uri insert(android.net.Uri,android.content.ContentValues) -> insert
+    int delete(android.net.Uri,java.lang.String,java.lang.String[]) -> delete
+    int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[]) -> update
+com.tyt.bbs.provider.DatabaseHelper -> com.tyt.bbs.provider.c:
+    java.lang.String path -> a
+    android.content.Context mContext -> b
+    android.database.sqlite.SQLiteDatabase mDatabase -> c
+    boolean mIsInitializing -> d
+    java.lang.String createTable(java.lang.String,java.lang.String[],java.lang.String[]) -> a
+    android.database.sqlite.SQLiteDatabase getWritableDatabase() -> a
+    android.database.sqlite.SQLiteDatabase getReadableDatabase() -> b
+com.tyt.bbs.utils.CustomHttpClient -> com.tyt.bbs.e.a:
+    org.apache.http.impl.client.DefaultHttpClient customerHttpClient -> a
+    org.apache.http.impl.client.DefaultHttpClient getHttpClient() -> a
+com.tyt.bbs.utils.FileOperate -> com.tyt.bbs.e.b:
+    java.lang.String SDState -> a
+    boolean writeToSDcard(java.lang.String,java.lang.String) -> a
+    android.graphics.drawable.Drawable getDrawableFromSDcard(java.lang.String) -> a
+    java.io.File readFromSDcard(java.lang.String) -> b
+    java.io.File readFromSDcardByPath(java.lang.String) -> c
+    boolean writePicToSDcard(java.lang.String,android.graphics.Bitmap) -> a
+    java.io.File inputstreamtofile(java.io.InputStream) -> a
+com.tyt.bbs.utils.ImageLoader -> com.tyt.bbs.e.c:
+    java.util.concurrent.ExecutorService executorService -> a
+    android.graphics.drawable.Drawable loadDrawable(java.lang.String,java.lang.Boolean,java.util.Map,com.tyt.bbs.utils.ImageLoader$ImageCallback) -> a
+com.tyt.bbs.utils.ImageLoader$1 -> com.tyt.bbs.e.d:
+    com.tyt.bbs.utils.ImageLoader this$0 -> a
+    java.lang.String val$imageUrl -> b
+    java.lang.Boolean val$isStore -> c
+    java.util.Map val$imageCache -> d
+    com.tyt.bbs.utils.ImageLoader$ImageCallback val$callback -> e
+    void run() -> run
+com.tyt.bbs.utils.ImageLoader$ImageCallback -> com.tyt.bbs.e.e:
+    void imageLoaded(android.graphics.drawable.Drawable) -> a
+com.tyt.bbs.utils.ImageOperate -> com.tyt.bbs.e.f:
+    android.graphics.Bitmap drawableToBitmap(android.graphics.drawable.Drawable) -> a
+com.tyt.bbs.utils.Login -> com.tyt.bbs.e.g:
+    com.tyt.bbs.utils.Login login -> a
+    com.tyt.bbs.utils.Login getInstance() -> a
+    boolean login(java.lang.String,java.lang.String) -> a
+com.tyt.bbs.utils.Net -> com.tyt.bbs.e.h:
+    com.tyt.bbs.utils.Net net -> a
+    java.lang.String cookie -> b
+    com.tyt.bbs.utils.Net getInstance() -> a
+    java.lang.String get(java.lang.String) -> a
+    java.lang.String getWithCookie(java.lang.String) -> b
+    java.lang.String get(java.lang.String,java.util.List) -> a
+    java.lang.String loginPost(java.lang.String,java.util.List) -> b
+    java.lang.String postFile(java.lang.String,java.util.List) -> c
+    java.lang.String postFile(java.util.List,java.io.File) -> a
+    java.lang.String fetchCookie(org.apache.http.impl.client.DefaultHttpClient) -> a
+    java.lang.String post(java.lang.String,java.util.List) -> d
+    java.lang.String readstream(java.io.InputStream) -> a
+    java.lang.String getCookie() -> b
+com.tyt.bbs.utils.Property -> com.tyt.bbs.e.i:
+    java.lang.String PREFERENCES_NAME -> q
+    android.content.SharedPreferences setting -> r
+    java.lang.String Password -> a
+    java.lang.String UserName -> b
+    java.lang.String AutoLogin -> c
+    java.lang.String Cookie -> d
+    java.lang.String Cookie_Time -> e
+    java.lang.String LoginTime -> f
+    java.lang.String Boards -> g
+    java.lang.String Post_Tail -> h
+    java.lang.String Post_Prefix -> i
+    int ScreenWidth -> j
+    java.lang.String Base_URL -> k
+    java.lang.String Store_Image -> l
+    java.lang.String Tail -> m
+    java.lang.String ReplayMark -> n
+    java.lang.String Quote -> o
+    double Ratio -> p
+    android.content.SharedPreferences getPreferences(android.content.Context) -> a
+com.tyt.bbs.utils.XmlOperate -> com.tyt.bbs.e.j:
+    com.tyt.bbs.utils.XmlOperate xml -> a
+    com.tyt.bbs.utils.XmlOperate getInstance() -> a
+    java.lang.String writeXml(java.util.ArrayList) -> a
+    java.lang.String writeFavXml(java.util.ArrayList) -> b
+    java.util.ArrayList readXML(java.io.File) -> a
+com.tyt.bbs.utils.XmlOperate$TopTenHandler -> com.tyt.bbs.e.k:
+    com.tyt.bbs.entity.TopicItem currentTopicItem -> c
+    java.util.ArrayList topTens -> a
+    java.lang.String tagName -> d
+    com.tyt.bbs.utils.XmlOperate this$0 -> b
+    void startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes) -> startElement
+    void characters(char[],int,int) -> characters
+    void endElement(java.lang.String,java.lang.String,java.lang.String) -> endElement
+com.tyt.bbs.view.FlowIndicator -> com.tyt.bbs.view.a:
+    void setViewFlow(com.tyt.bbs.view.ViewFlow) -> a
+    void onScrolled$3b4dfe4b(int) -> b
+com.tyt.bbs.view.LoadingDrawable -> com.tyt.bbs.view.b:
+    int color1 -> a
+    int color2 -> b
+    int mLoadingStyle -> c
+    int mBackgroundColor -> d
+    int mDuration -> e
+    int getMinimumHeight() -> getMinimumHeight
+    int getMinimumWidth() -> getMinimumWidth
+com.tyt.bbs.view.PullToRefreshListView -> com.tyt.bbs.view.PullToRefreshListView:
+    com.tyt.bbs.view.PullToRefreshListView$OnRefreshListener mOnRefreshListener -> a
+    android.widget.AbsListView$OnScrollListener mOnScrollListener -> b
+    android.view.LayoutInflater mInflater -> c
+    android.widget.RelativeLayout mRefreshView -> d
+    android.widget.TextView mRefreshViewText -> e
+    android.widget.ImageView mRefreshViewImage -> f
+    android.widget.ProgressBar mRefreshViewProgress -> g
+    android.widget.TextView mRefreshViewLastUpdated -> h
+    int mCurrentScrollState -> i
+    int mRefreshState -> j
+    android.view.animation.RotateAnimation mFlipAnimation -> k
+    android.view.animation.RotateAnimation mReverseFlipAnimation -> l
+    int mRefreshViewHeight -> m
+    int mRefreshOriginalTopPadding -> n
+    int mLastMotionY -> o
+    boolean mBounceHack -> p
+    void init(android.content.Context) -> a
+    void onAttachedToWindow() -> onAttachedToWindow
+    void setAdapter(android.widget.ListAdapter) -> setAdapter
+    void setOnScrollListener(android.widget.AbsListView$OnScrollListener) -> setOnScrollListener
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void resetHeaderPadding() -> c
+    void resetHeader() -> d
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    void prepareForRefresh() -> a
+    void onRefresh() -> b
+    int access$0(com.tyt.bbs.view.PullToRefreshListView) -> a
+com.tyt.bbs.view.PullToRefreshListView$OnClickRefreshListener -> com.tyt.bbs.view.c:
+    com.tyt.bbs.view.PullToRefreshListView this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.tyt.bbs.view.PullToRefreshListView$OnRefreshListener -> com.tyt.bbs.view.d:
+com.tyt.bbs.view.TitleFlowIndicator -> com.tyt.bbs.view.TitleFlowIndicator:
+    com.tyt.bbs.view.ViewFlow viewFlow -> a
+    int currentScroll -> b
+    com.tyt.bbs.view.TitleProvider titleProvider -> c
+    int currentPosition -> d
+    android.graphics.Paint paintText -> e
+    android.graphics.Paint paintSelected -> f
+    android.graphics.Path path -> g
+    android.graphics.Paint paintFooterLine -> h
+    android.graphics.Paint paintFooterTriangle -> i
+    float footerTriangleHeight -> j
+    float titlePadding -> k
+    float clipPadding -> l
+    float footerLineHeight -> m
+    void onDraw(android.graphics.Canvas) -> onDraw
+    void clipViewOnTheRight(android.graphics.Rect,int) -> a
+    void clipViewOnTheLeft(android.graphics.Rect,int) -> b
+    java.lang.String getTitle(int) -> c
+    void onScrolled$3b4dfe4b(int) -> b
+    void onSwitched$5359dc9a(int) -> a
+    void setViewFlow(com.tyt.bbs.view.ViewFlow) -> a
+    void setTitleProvider(com.tyt.bbs.view.TitleProvider) -> a
+    void onMeasure(int,int) -> onMeasure
+com.tyt.bbs.view.TitleProvider -> com.tyt.bbs.view.e:
+    java.lang.String getTitle(int) -> a
+com.tyt.bbs.view.ViewFlow -> com.tyt.bbs.view.ViewFlow:
+    java.util.LinkedList mLoadedViews -> a
+    int mCurrentBufferIndex -> b
+    int mCurrentAdapterIndex -> c
+    int mSideBuffer -> d
+    android.widget.Scroller mScroller -> e
+    android.view.VelocityTracker mVelocityTracker -> f
+    int mTouchState -> g
+    float mLastMotionX -> h
+    int mTouchSlop -> i
+    int mMaximumVelocity -> j
+    int mCurrentScreen -> k
+    int mNextScreen -> l
+    boolean mFirstLayout -> m
+    com.tyt.bbs.view.ViewFlow$ViewSwitchListener mViewSwitchListener -> n
+    android.widget.Adapter mAdapter -> o
+    int mLastScrollDirection -> p
+    com.tyt.bbs.view.ViewFlow$AdapterDataSetObserver mDataSetObserver -> q
+    com.tyt.bbs.view.FlowIndicator mIndicator -> r
+    int mLastOrientation -> s
+    android.view.ViewTreeObserver$OnGlobalLayoutListener orientationChangeListener -> t
+    void onMeasure(int,int) -> onMeasure
+    void onLayout(boolean,int,int,int,int) -> onLayout
+    boolean onInterceptTouchEvent(android.view.MotionEvent) -> onInterceptTouchEvent
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void onScrollChanged(int,int,int,int) -> onScrollChanged
+    void snapToDestination() -> a
+    void snapToScreen(int) -> a
+    void computeScroll() -> computeScroll
+    void setVisibleView(int,boolean) -> a
+    void setOnViewSwitchListener(com.tyt.bbs.view.ViewFlow$ViewSwitchListener) -> a
+    android.widget.Adapter getAdapter() -> getAdapter
+    void setAdapter(android.widget.Adapter) -> setAdapter
+    void setAdapter$353b7563(android.widget.Adapter) -> a
+    android.view.View getSelectedView() -> getSelectedView
+    int getSelectedItemPosition() -> getSelectedItemPosition
+    void setFlowIndicator(com.tyt.bbs.view.FlowIndicator) -> a
+    void setSelection(int) -> setSelection
+    android.view.View makeAndAddView(int,boolean,android.view.View) -> a
+    void logBuffer() -> b
+    android.view.ViewTreeObserver$OnGlobalLayoutListener access$0(com.tyt.bbs.view.ViewFlow) -> a
+    int access$1(com.tyt.bbs.view.ViewFlow) -> b
+    int access$2(com.tyt.bbs.view.ViewFlow) -> c
+    android.widget.Adapter access$3(com.tyt.bbs.view.ViewFlow) -> d
+    void access$4(com.tyt.bbs.view.ViewFlow,int) -> a
+    void access$5(com.tyt.bbs.view.ViewFlow) -> e
+com.tyt.bbs.view.ViewFlow$1 -> com.tyt.bbs.view.f:
+    com.tyt.bbs.view.ViewFlow this$0 -> a
+    void onGlobalLayout() -> onGlobalLayout
+com.tyt.bbs.view.ViewFlow$AdapterDataSetObserver -> com.tyt.bbs.view.g:
+    com.tyt.bbs.view.ViewFlow this$0 -> a
+    void onChanged() -> onChanged
+    void onInvalidated() -> onInvalidated
+com.tyt.bbs.view.ViewFlow$ViewSwitchListener -> com.tyt.bbs.view.h:
+    void onSwitched$5359dc9a(int) -> a
+org.apache.http.entity.mime.FormBodyPart -> a.a.a.a.a.a:
+    java.lang.String name -> a
+    org.apache.http.entity.mime.Header header -> b
+    org.apache.http.entity.mime.content.ContentBody body -> c
+    org.apache.http.entity.mime.content.ContentBody getBody() -> a
+    org.apache.http.entity.mime.Header getHeader() -> b
+    void addField(java.lang.String,java.lang.String) -> a
+org.apache.http.entity.mime.Header -> a.a.a.a.a.b:
+    java.util.List fields -> a
+    java.util.Map fieldMap -> b
+    void addField(org.apache.http.entity.mime.MinimalField) -> a
+    org.apache.http.entity.mime.MinimalField getField(java.lang.String) -> a
+    java.util.Iterator iterator() -> iterator
+    java.lang.String toString() -> toString
+org.apache.http.entity.mime.HttpMultipart -> a.a.a.a.a.c:
+    org.apache.http.util.ByteArrayBuffer FIELD_SEP -> a
+    org.apache.http.util.ByteArrayBuffer CR_LF -> b
+    org.apache.http.util.ByteArrayBuffer TWO_DASHES -> c
+    java.lang.String subType -> d
+    java.nio.charset.Charset charset -> e
+    java.lang.String boundary -> f
+    java.util.List parts -> g
+    org.apache.http.entity.mime.HttpMultipartMode mode -> h
+    org.apache.http.util.ByteArrayBuffer encode(java.nio.charset.Charset,java.lang.String) -> a
+    void writeBytes(org.apache.http.util.ByteArrayBuffer,java.io.OutputStream) -> a
+    void writeBytes(java.lang.String,java.nio.charset.Charset,java.io.OutputStream) -> a
+    void writeBytes(java.lang.String,java.io.OutputStream) -> a
+    void writeField(org.apache.http.entity.mime.MinimalField,java.nio.charset.Charset,java.io.OutputStream) -> a
+    java.util.List getBodyParts() -> a
+    void addBodyPart(org.apache.http.entity.mime.FormBodyPart) -> a
+    void doWriteTo(org.apache.http.entity.mime.HttpMultipartMode,java.io.OutputStream,boolean) -> a
+    void writeTo(java.io.OutputStream) -> a
+    long getTotalLength() -> b
+org.apache.http.entity.mime.HttpMultipart$1 -> a.a.a.a.a.d:
+    int[] $SwitchMap$org$apache$http$entity$mime$HttpMultipartMode -> a
+org.apache.http.entity.mime.HttpMultipartMode -> a.a.a.a.a.e:
+    org.apache.http.entity.mime.HttpMultipartMode STRICT -> a
+    org.apache.http.entity.mime.HttpMultipartMode BROWSER_COMPATIBLE -> b
+    org.apache.http.entity.mime.HttpMultipartMode[] $VALUES -> c
+    org.apache.http.entity.mime.HttpMultipartMode[] values() -> values
+    org.apache.http.entity.mime.HttpMultipartMode valueOf(java.lang.String) -> valueOf
+org.apache.http.entity.mime.MIME -> a.a.a.a.a.f:
+    java.nio.charset.Charset DEFAULT_CHARSET -> a
+org.apache.http.entity.mime.MinimalField -> a.a.a.a.a.g:
+    java.lang.String name -> a
+    java.lang.String value -> b
+    java.lang.String getName() -> a
+    java.lang.String getBody() -> b
+    java.lang.String toString() -> toString
+org.apache.http.entity.mime.MultipartEntity -> a.a.a.a.a.h:
+    char[] MULTIPART_CHARS -> a
+    org.apache.http.entity.mime.HttpMultipart multipart -> b
+    org.apache.http.Header contentType -> c
+    long length -> d
+    boolean dirty -> e
+    java.lang.String generateBoundary() -> a
+    void addPart(java.lang.String,org.apache.http.entity.mime.content.ContentBody) -> a
+    boolean isRepeatable() -> isRepeatable
+    boolean isChunked() -> isChunked
+    boolean isStreaming() -> isStreaming
+    long getContentLength() -> getContentLength
+    org.apache.http.Header getContentType() -> getContentType
+    org.apache.http.Header getContentEncoding() -> getContentEncoding
+    void consumeContent() -> consumeContent
+    java.io.InputStream getContent() -> getContent
+    void writeTo(java.io.OutputStream) -> writeTo
+org.apache.http.entity.mime.content.AbstractContentBody -> a.a.a.a.a.a.a:
+    java.lang.String mimeType -> a
+    java.lang.String mediaType -> b
+    java.lang.String subType -> c
+    java.lang.String getMimeType() -> a
+org.apache.http.entity.mime.content.ContentBody -> a.a.a.a.a.a.b:
+    java.lang.String getFilename() -> b
+    void writeTo(java.io.OutputStream) -> a
+org.apache.http.entity.mime.content.ContentDescriptor -> a.a.a.a.a.a.c:
+    java.lang.String getMimeType() -> a
+    java.lang.String getCharset() -> c
+    java.lang.String getTransferEncoding() -> d
+    long getContentLength() -> e
+org.apache.http.entity.mime.content.FileBody -> a.a.a.a.a.a.d:
+    java.io.File file -> a
+    java.lang.String filename -> b
+    java.lang.String charset -> c
+    void writeTo(java.io.OutputStream) -> a
+    java.lang.String getTransferEncoding() -> d
+    java.lang.String getCharset() -> c
+    long getContentLength() -> e
+    java.lang.String getFilename() -> b
+org.apache.http.entity.mime.content.StringBody -> a.a.a.a.a.a.e:
+    byte[] content -> a
+    java.nio.charset.Charset charset -> b
+    void writeTo(java.io.OutputStream) -> a
+    java.lang.String getTransferEncoding() -> d
+    java.lang.String getCharset() -> c
+    long getContentLength() -> e
+    java.lang.String getFilename() -> b
+org.jsoup.helper.StringUtil -> a.b.a.a:
+    java.lang.String[] padding -> a
+    java.lang.String padding(int) -> a
+    boolean isBlank(java.lang.String) -> a
+    boolean isNumeric(java.lang.String) -> b
+    java.lang.String normaliseWhitespace(java.lang.String) -> c
+org.jsoup.helper.Validate -> a.b.a.b:
+    void notNull(java.lang.Object) -> a
+    void notEmpty(java.lang.String) -> a
+    void notEmpty(java.lang.String,java.lang.String) -> a
+org.jsoup.nodes.Attribute -> a.b.b.a:
+    java.lang.String key -> a
+    java.lang.String value -> b
+    java.lang.String getKey() -> a
+    java.lang.String getValue() -> b
+    void html(java.lang.StringBuilder,org.jsoup.nodes.Document$OutputSettings) -> a
+    java.lang.String toString() -> toString
+    org.jsoup.nodes.Attribute createFromEncoded(java.lang.String,java.lang.String) -> a
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    org.jsoup.nodes.Attribute clone() -> c
+    java.lang.Object getValue() -> getValue
+    java.lang.Object getKey() -> getKey
+    java.lang.Object clone() -> clone
+    java.lang.Object setValue(java.lang.Object) -> setValue
+org.jsoup.nodes.Attributes -> a.b.b.b:
+    java.util.LinkedHashMap attributes -> a
+    java.lang.String get(java.lang.String) -> a
+    void put(java.lang.String,java.lang.String) -> a
+    void put(org.jsoup.nodes.Attribute) -> a
+    boolean hasKey(java.lang.String) -> b
+    java.util.Iterator iterator() -> iterator
+    java.util.List asList() -> a
+    void html(java.lang.StringBuilder,org.jsoup.nodes.Document$OutputSettings) -> a
+    java.lang.String toString() -> toString
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    org.jsoup.nodes.Attributes clone() -> b
+    java.lang.Object clone() -> clone
+org.jsoup.nodes.Comment -> a.b.b.c:
+    java.lang.String nodeName() -> a
+    void outerHtmlHead(java.lang.StringBuilder,int,org.jsoup.nodes.Document$OutputSettings) -> a
+    void outerHtmlTail(java.lang.StringBuilder,int,org.jsoup.nodes.Document$OutputSettings) -> b
+    java.lang.String toString() -> toString
+org.jsoup.nodes.DataNode -> a.b.b.d:
+    java.lang.String nodeName() -> a
+    void outerHtmlHead(java.lang.StringBuilder,int,org.jsoup.nodes.Document$OutputSettings) -> a
+    void outerHtmlTail(java.lang.StringBuilder,int,org.jsoup.nodes.Document$OutputSettings) -> b
+    java.lang.String toString() -> toString
+org.jsoup.nodes.Document -> a.b.b.e:
+    org.jsoup.nodes.Document$OutputSettings outputSettings -> f
+    org.jsoup.nodes.Element body() -> z
+    org.jsoup.nodes.Document normalise() -> b
+    void normaliseTextNodes(org.jsoup.nodes.Element) -> a
+    void normaliseStructure(java.lang.String,org.jsoup.nodes.Element) -> a
+    org.jsoup.nodes.Element findFirstElementByTagName(java.lang.String,org.jsoup.nodes.Node) -> a
+    java.lang.String outerHtml() -> c
+    java.lang.String nodeName() -> a
+    org.jsoup.nodes.Document$OutputSettings outputSettings() -> d
+    org.jsoup.nodes.Element clone() -> e
+org.jsoup.nodes.Document$OutputSettings -> a.b.b.f:
+    org.jsoup.nodes.Entities$EscapeMode escapeMode -> b
+    java.nio.charset.Charset charset -> c
+    java.nio.charset.CharsetEncoder charsetEncoder -> d
+    boolean prettyPrint -> e
+    int indentAmount -> f
+    org.jsoup.nodes.Document this$0 -> a
+    org.jsoup.nodes.Entities$EscapeMode escapeMode() -> a
+    java.nio.charset.CharsetEncoder encoder() -> b
+    boolean prettyPrint() -> c
+    int indentAmount() -> d
+    org.jsoup.nodes.Document$OutputSettings clone() -> e
+    java.lang.Object clone() -> clone
+org.jsoup.nodes.Element -> a.b.b.g:
+    org.jsoup.parser.Tag tag -> f
+    java.util.Set classNames -> g
+    java.lang.String nodeName() -> a
+    java.lang.String tagName() -> f
+    org.jsoup.parser.Tag tag() -> g
+    java.lang.String id() -> h
+    org.jsoup.nodes.Element parent() -> i
+    org.jsoup.select.Elements parents() -> j
+    org.jsoup.nodes.Element child$6c1215a() -> k
+    org.jsoup.select.Elements children() -> b
+    org.jsoup.select.Elements select(java.lang.String) -> a
+    org.jsoup.nodes.Element appendChild(org.jsoup.nodes.Node) -> a
+    org.jsoup.nodes.Element prependChild(org.jsoup.nodes.Node) -> b
+    org.jsoup.nodes.Element appendElement(java.lang.String) -> b
+    org.jsoup.nodes.Element nextElementSibling() -> l
+    org.jsoup.nodes.Element previousElementSibling() -> m
+    java.lang.Integer elementSiblingIndex() -> n
+    java.lang.Integer indexInList(org.jsoup.nodes.Element,java.util.List) -> a
+    org.jsoup.select.Elements getElementsByTag(java.lang.String) -> c
+    org.jsoup.nodes.Element getElementById(java.lang.String) -> d
+    org.jsoup.select.Elements getElementsByClass(java.lang.String) -> e
+    org.jsoup.select.Elements getElementsByAttribute(java.lang.String) -> f
+    org.jsoup.select.Elements getElementsByAttributeStarting(java.lang.String) -> g
+    org.jsoup.select.Elements getElementsByAttributeValue(java.lang.String,java.lang.String) -> a
+    org.jsoup.select.Elements getElementsByAttributeValueNot(java.lang.String,java.lang.String) -> b
+    org.jsoup.select.Elements getElementsByAttributeValueStarting(java.lang.String,java.lang.String) -> c
+    org.jsoup.select.Elements getElementsByAttributeValueEnding(java.lang.String,java.lang.String) -> d
+    org.jsoup.select.Elements getElementsByAttributeValueContaining(java.lang.String,java.lang.String) -> e
+    org.jsoup.select.Elements getElementsByAttributeValueMatching(java.lang.String,java.lang.String) -> f
+    org.jsoup.select.Elements getElementsByIndexLessThan(int) -> a
+    org.jsoup.select.Elements getElementsByIndexGreaterThan(int) -> b
+    org.jsoup.select.Elements getElementsByIndexEquals(int) -> c
+    org.jsoup.select.Elements getElementsContainingText(java.lang.String) -> h
+    org.jsoup.select.Elements getElementsContainingOwnText(java.lang.String) -> i
+    org.jsoup.select.Elements getElementsMatchingText(java.lang.String) -> j
+    org.jsoup.select.Elements getElementsMatchingOwnText(java.lang.String) -> k
+    org.jsoup.select.Elements getAllElements() -> o
+    java.lang.String text() -> p
+    void text(java.lang.StringBuilder) -> b
+    java.lang.String ownText() -> q
+    void ownText(java.lang.StringBuilder) -> c
+    void appendNormalisedText(java.lang.StringBuilder,org.jsoup.nodes.TextNode) -> a
+    boolean preserveWhitespace() -> r
+    java.util.Set classNames() -> d
+    boolean hasClass(java.lang.String) -> l
+    void outerHtmlHead(java.lang.StringBuilder,int,org.jsoup.nodes.Document$OutputSettings) -> a
+    void outerHtmlTail(java.lang.StringBuilder,int,org.jsoup.nodes.Document$OutputSettings) -> b
+    java.lang.String html() -> s
+    void html(java.lang.StringBuilder) -> d
+    java.lang.String toString() -> toString
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    org.jsoup.nodes.Element clone() -> e
+    org.jsoup.nodes.Node parent() -> t
+    org.jsoup.nodes.Node clone() -> u
+org.jsoup.nodes.Entities -> a.b.b.h:
+    java.util.Map full -> a
+    java.util.Map xhtmlByVal -> b
+    java.util.Map baseByVal -> c
+    java.util.Map fullByVal -> d
+    java.util.regex.Pattern unescapePattern -> e
+    java.lang.Object[][] xhtmlArray -> f
+    java.lang.Object[][] baseArray -> g
+    java.lang.Object[][] fullArray -> h
+    java.lang.String escape(java.lang.String,org.jsoup.nodes.Document$OutputSettings) -> a
+    java.lang.String unescape(java.lang.String) -> a
+    java.util.Map access$0() -> a
+    java.util.Map access$1() -> b
+    java.util.Map access$2() -> c
+org.jsoup.nodes.Entities$EscapeMode -> a.b.b.i:
+    org.jsoup.nodes.Entities$EscapeMode xhtml -> a
+    org.jsoup.nodes.Entities$EscapeMode base -> b
+    org.jsoup.nodes.Entities$EscapeMode extended -> c
+    java.util.Map map -> d
+    org.jsoup.nodes.Entities$EscapeMode[] ENUM$VALUES -> e
+    java.util.Map getMap() -> a
+    org.jsoup.nodes.Entities$EscapeMode[] values() -> values
+    org.jsoup.nodes.Entities$EscapeMode valueOf(java.lang.String) -> valueOf
+org.jsoup.nodes.Evaluator -> a.b.b.j:
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Evaluator$AllElements -> a.b.b.k:
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Evaluator$Attribute -> a.b.b.l:
+    java.lang.String key -> a
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Evaluator$AttributeKeyPair -> a.b.b.m:
+    java.lang.String key -> a
+    java.lang.String value -> b
+org.jsoup.nodes.Evaluator$AttributeStarting -> a.b.b.n:
+    java.lang.String keyPrefix -> a
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Evaluator$AttributeWithValue -> a.b.b.o:
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Evaluator$AttributeWithValueContaining -> a.b.b.p:
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Evaluator$AttributeWithValueEnding -> a.b.b.q:
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Evaluator$AttributeWithValueMatching -> a.b.b.r:
+    java.lang.String key -> a
+    java.util.regex.Pattern pattern -> b
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Evaluator$AttributeWithValueNot -> a.b.b.s:
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Evaluator$AttributeWithValueStarting -> a.b.b.t:
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Evaluator$Class -> a.b.b.u:
+    java.lang.String className -> a
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Evaluator$ContainsOwnText -> a.b.b.v:
+    java.lang.String searchText -> a
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Evaluator$ContainsText -> a.b.b.w:
+    java.lang.String searchText -> a
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Evaluator$Id -> a.b.b.x:
+    java.lang.String id -> a
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Evaluator$IndexEquals -> a.b.b.y:
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Evaluator$IndexEvaluator -> a.b.b.z:
+    int index -> a
+org.jsoup.nodes.Evaluator$IndexGreaterThan -> a.b.b.aa:
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Evaluator$IndexLessThan -> a.b.b.ab:
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Evaluator$Matches -> a.b.b.ac:
+    java.util.regex.Pattern pattern -> a
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Evaluator$MatchesOwn -> a.b.b.ad:
+    java.util.regex.Pattern pattern -> a
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Evaluator$Tag -> a.b.b.ae:
+    java.lang.String tagName -> a
+    boolean matches(org.jsoup.nodes.Element) -> a
+org.jsoup.nodes.Node -> a.b.b.af:
+    org.jsoup.nodes.Node parentNode -> a
+    java.util.List childNodes -> b
+    org.jsoup.nodes.Attributes attributes -> c
+    java.lang.String baseUri -> d
+    int siblingIndex -> e
+    java.lang.String nodeName() -> a
+    java.lang.String attr(java.lang.String) -> m
+    boolean hasAttr(java.lang.String) -> n
+    void setBaseUri(java.lang.String) -> o
+    java.lang.String absUrl(java.lang.String) -> p
+    org.jsoup.nodes.Node childNode$5b77efbe() -> v
+    java.util.List childNodes() -> w
+    org.jsoup.nodes.Node parent() -> t
+    org.jsoup.nodes.Document ownerDocument() -> b
+    void remove() -> x
+    void removeChild(org.jsoup.nodes.Node) -> c
+    void addChildren(org.jsoup.nodes.Node[]) -> a
+    void addChildren$2eaa07bd(org.jsoup.nodes.Node[]) -> b
+    void reparentChild(org.jsoup.nodes.Node) -> a
+    void reindexChildren() -> d
+    org.jsoup.nodes.Node nextSibling() -> y
+    java.lang.String outerHtml() -> c
+    void outerHtml(java.lang.StringBuilder) -> a
+    void outerHtmlHead(java.lang.StringBuilder,int,org.jsoup.nodes.Document$OutputSettings) -> a
+    void outerHtmlTail(java.lang.StringBuilder,int,org.jsoup.nodes.Document$OutputSettings) -> b
+    java.lang.String toString() -> toString
+    void indent(java.lang.StringBuilder,int,org.jsoup.nodes.Document$OutputSettings) -> c
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    org.jsoup.nodes.Node clone() -> u
+    org.jsoup.nodes.Node doClone(org.jsoup.nodes.Node) -> b
+    java.lang.Object clone() -> clone
+org.jsoup.nodes.Node$OuterHtmlVisitor -> a.b.b.ag:
+    java.lang.StringBuilder accum -> a
+    org.jsoup.nodes.Document$OutputSettings out -> b
+    void head(org.jsoup.nodes.Node,int) -> a
+    void tail(org.jsoup.nodes.Node,int) -> b
+org.jsoup.nodes.TextNode -> a.b.b.ah:
+    java.lang.String text -> f
+    java.lang.String nodeName() -> a
+    java.lang.String getWholeText() -> b
+    void outerHtmlHead(java.lang.StringBuilder,int,org.jsoup.nodes.Document$OutputSettings) -> a
+    void outerHtmlTail(java.lang.StringBuilder,int,org.jsoup.nodes.Document$OutputSettings) -> b
+    java.lang.String toString() -> toString
+    org.jsoup.nodes.TextNode createFromEncoded(java.lang.String,java.lang.String) -> a
+    boolean lastCharIsWhitespace(java.lang.StringBuilder) -> b
+    void ensureAttributes() -> d
+    java.lang.String attr(java.lang.String) -> m
+    boolean hasAttr(java.lang.String) -> n
+    java.lang.String absUrl(java.lang.String) -> p
+org.jsoup.nodes.XmlDeclaration -> a.b.b.ai:
+    boolean isProcessingInstruction -> f
+    java.lang.String nodeName() -> a
+    void outerHtmlHead(java.lang.StringBuilder,int,org.jsoup.nodes.Document$OutputSettings) -> a
+    void outerHtmlTail(java.lang.StringBuilder,int,org.jsoup.nodes.Document$OutputSettings) -> b
+    java.lang.String toString() -> toString
+org.jsoup.parser.Parser -> a.b.c.a:
+    org.jsoup.parser.Tag htmlTag -> a
+    org.jsoup.parser.Tag headTag -> b
+    org.jsoup.parser.Tag bodyTag -> c
+    org.jsoup.parser.Tag titleTag -> d
+    org.jsoup.parser.Tag textareaTag -> e
+    java.util.LinkedList stack -> f
+    org.jsoup.parser.TokenQueue tq -> g
+    org.jsoup.nodes.Document doc -> h
+    java.lang.String baseUri -> i
+    boolean relaxed -> j
+    org.jsoup.nodes.Document parse(java.lang.String,java.lang.String) -> a
+    org.jsoup.nodes.Element addChildToParent(org.jsoup.nodes.Element,boolean) -> a
+    org.jsoup.nodes.Element popStackToClose(org.jsoup.parser.Tag) -> a
+    org.jsoup.nodes.Element last() -> a
+org.jsoup.parser.Tag -> a.b.c.b:
+    java.util.Map tags -> a
+    org.jsoup.parser.Tag defaultAncestor -> b
+    java.lang.String tagName -> c
+    boolean knownTag -> d
+    boolean isBlock -> e
+    boolean formatAsBlock -> f
+    boolean canContainBlock -> g
+    boolean canContainInline -> h
+    boolean optionalClosing -> i
+    boolean empty -> j
+    boolean selfClosing -> k
+    boolean preserveWhitespace -> l
+    java.util.List ancestors -> m
+    java.util.List excludes -> n
+    java.util.List ignoreEndTags -> o
+    boolean directDescendant -> p
+    boolean limitChildren -> q
+    java.lang.String getName() -> a
+    org.jsoup.parser.Tag valueOf(java.lang.String) -> a
+    boolean canContain(org.jsoup.parser.Tag) -> a
+    boolean isBlock() -> b
+    boolean formatAsBlock() -> c
+    boolean isData() -> d
+    boolean isEmpty() -> e
+    boolean isSelfClosing() -> f
+    boolean isKnownTag() -> g
+    boolean preserveWhitespace() -> h
+    org.jsoup.parser.Tag getImplicitParent() -> i
+    boolean requiresSpecificParent() -> j
+    boolean isValidParent(org.jsoup.parser.Tag) -> b
+    boolean isValidAncestor(org.jsoup.parser.Tag) -> c
+    boolean isIgnorableEndTag(org.jsoup.parser.Tag) -> d
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+    org.jsoup.parser.Tag createBlock(java.lang.String) -> b
+    org.jsoup.parser.Tag createInline(java.lang.String) -> c
+    org.jsoup.parser.Tag register(org.jsoup.parser.Tag) -> e
+    org.jsoup.parser.Tag setContainInlineOnly() -> l
+    org.jsoup.parser.Tag setContainDataOnly() -> m
+    org.jsoup.parser.Tag setEmpty() -> n
+    org.jsoup.parser.Tag setAncestor(java.lang.String[]) -> a
+    org.jsoup.parser.Tag setExcludes(java.lang.String[]) -> b
+    org.jsoup.parser.Tag setIgnoreEnd(java.lang.String[]) -> c
+    org.jsoup.parser.Tag setParent(java.lang.String[]) -> d
+    org.jsoup.parser.Tag setSelfClosing() -> k
+org.jsoup.parser.TokenQueue -> a.b.c.c:
+    java.lang.String queue -> a
+    int pos -> b
+    java.lang.Character ESC -> c
+    boolean isEmpty() -> a
+    int remainingLength() -> n
+    java.lang.Character peek() -> b
+    boolean matches(java.lang.String) -> a
+    boolean matchesCS(java.lang.String) -> b
+    boolean matchesAny(java.lang.String[]) -> a
+    boolean matchesAny(char[]) -> a
+    boolean matchesStartTag() -> c
+    boolean matchChomp(java.lang.String) -> c
+    boolean matchesWhitespace() -> d
+    boolean matchesWord() -> e
+    void advance() -> f
+    java.lang.Character consume() -> g
+    void consume(java.lang.String) -> d
+    java.lang.String consumeTo(java.lang.String) -> e
+    java.lang.String consumeToAny(java.lang.String[]) -> b
+    java.lang.String chompTo(java.lang.String) -> f
+    java.lang.String chompToIgnoreCase(java.lang.String) -> g
+    java.lang.String chompBalanced(java.lang.Character,java.lang.Character) -> a
+    java.lang.String unescape(java.lang.String) -> h
+    boolean consumeWhitespace() -> h
+    java.lang.String consumeTagName() -> i
+    java.lang.String consumeElementSelector() -> j
+    java.lang.String consumeCssIdentifier() -> k
+    java.lang.String consumeAttributeKey() -> l
+    java.lang.String remainder() -> m
+    java.lang.String toString() -> toString
+org.jsoup.select.Collector -> a.b.d.a:
+    org.jsoup.select.Elements collect(org.jsoup.nodes.Evaluator,org.jsoup.nodes.Element) -> a
+org.jsoup.select.Collector$Accumulator -> a.b.d.b:
+    org.jsoup.select.Elements elements -> a
+    org.jsoup.nodes.Evaluator eval -> b
+    void head(org.jsoup.nodes.Node,int) -> a
+    void tail(org.jsoup.nodes.Node,int) -> b
+org.jsoup.select.Elements -> a.b.d.c:
+    java.util.List contents -> a
+    java.lang.String attr(java.lang.String) -> a
+    java.lang.String text() -> a
+    java.lang.String toString() -> toString
+    org.jsoup.select.Elements remove() -> b
+    org.jsoup.select.Elements select(java.lang.String) -> b
+    org.jsoup.nodes.Element first() -> c
+    org.jsoup.nodes.Element last() -> d
+    int size() -> size
+    boolean isEmpty() -> isEmpty
+    boolean contains(java.lang.Object) -> contains
+    java.util.Iterator iterator() -> iterator
+    java.lang.Object[] toArray() -> toArray
+    java.lang.Object[] toArray(java.lang.Object[]) -> toArray
+    boolean add(org.jsoup.nodes.Element) -> a
+    boolean remove(java.lang.Object) -> remove
+    boolean containsAll(java.util.Collection) -> containsAll
+    boolean addAll(java.util.Collection) -> addAll
+    boolean addAll(int,java.util.Collection) -> addAll
+    boolean removeAll(java.util.Collection) -> removeAll
+    boolean retainAll(java.util.Collection) -> retainAll
+    void clear() -> clear
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    org.jsoup.nodes.Element get(int) -> a
+    int indexOf(java.lang.Object) -> indexOf
+    int lastIndexOf(java.lang.Object) -> lastIndexOf
+    java.util.ListIterator listIterator() -> listIterator
+    java.util.ListIterator listIterator(int) -> listIterator
+    java.util.List subList(int,int) -> subList
+    java.lang.Object get(int) -> get
+    void add(int,java.lang.Object) -> add
+    boolean add(java.lang.Object) -> add
+    java.lang.Object set(int,java.lang.Object) -> set
+    java.lang.Object remove(int) -> remove
+org.jsoup.select.NodeTraversor -> a.b.d.d:
+    org.jsoup.select.NodeVisitor visitor -> a
+    void traverse(org.jsoup.nodes.Node) -> a
+org.jsoup.select.NodeVisitor -> a.b.d.e:
+    void head(org.jsoup.nodes.Node,int) -> a
+    void tail(org.jsoup.nodes.Node,int) -> b
+org.jsoup.select.Selector -> a.b.d.f:
+    java.lang.String[] combinators -> a
+    org.jsoup.nodes.Element root -> b
+    java.util.LinkedHashSet elements -> c
+    java.lang.String query -> d
+    org.jsoup.parser.TokenQueue tq -> e
+    org.jsoup.select.Elements select(java.lang.String,org.jsoup.nodes.Element) -> a
+    org.jsoup.select.Elements select(java.lang.String,java.lang.Iterable) -> a
+    void combinator(java.lang.String) -> a
+    org.jsoup.select.Elements findElements() -> a
+    int consumeIndex() -> b
+    org.jsoup.select.Elements contains(boolean) -> a
+    org.jsoup.select.Elements matches(boolean) -> b
+org.jsoup.select.Selector$SelectorParseException -> a.b.d.g:

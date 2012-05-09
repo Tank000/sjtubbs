@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:layout_marginTop="5dip" android:gravity="center"
+	android:orientation="vertical">
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:orientation="vertical"
+		android:background="@drawable/bg_dialog"
+		android:layout_marginLeft="20dip" android:layout_marginRight="20dip">
+		<AutoCompleteTextView android:layout_width="fill_parent"
+			android:gravity="center_horizontal" android:layout_height="wrap_content"
+			android:id="@+id/autoCT_navigation" />
+		<LinearLayout android:layout_width="fill_parent"
+			android:id="@+id/layout_btn" android:layout_height="wrap_content"
+			android:layout_below="@+id/autoCT_navigation">
+			<Button android:id="@+id/btn_ok" android:text="@string/ok"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<Button android:id="@+id/btn_cancel" android:text="@string/cancel"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+		<LinearLayout android:id="@+id/layout_list"
+			android:layout_width="fill_parent"
+			 android:layout_below="@+id/layout_btn"
+			 android:gravity="center_horizontal"
+			android:layout_height="fill_parent">
+			<ListView android:id="@+id/lv_colums" android:layout_weight="3"
+				android:scrollbars="none" android:layout_width="wrap_content"
+				android:layout_height="fill_parent" />
+			<ListView android:id="@+id/lv_boards" android:layout_weight="2"
+				android:scrollbars="none" android:layout_width="wrap_content"
+				android:layout_height="fill_parent" />
+			<requestFocus />
+		</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

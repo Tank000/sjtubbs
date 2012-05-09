@@ -1,0 +1,552 @@
+com.feedback.NotificationType
+com.feedback.UMFeedbackService:
+    private static com.feedback.NotificationType a
+    private static android.content.Context b
+    private static void b(java.lang.String)
+    public static void openUmengFeedbackSDK(android.content.Context)
+    public static void enableNewReplyNotification(android.content.Context,com.feedback.NotificationType)
+    static synthetic android.content.Context a()
+    static synthetic void a(java.lang.String)
+com.feedback.a
+com.feedback.a.a:
+    public java.lang.String d
+com.feedback.b
+com.feedback.b.a:
+    public static void c(android.content.Context)
+com.feedback.b.b:
+    public static int a(org.json.JSONObject)
+com.feedback.b.d:
+    static final java.lang.String a
+    private static final int b
+com.feedback.c
+com.feedback.c.a:
+    java.lang.String d
+    java.lang.String e
+    int f
+    int g
+com.feedback.c.b:
+    public b(android.content.Context,int)
+    public b(android.content.Context,android.os.Handler)
+com.feedback.ui.FeedbackConversations:
+    private static final int c
+    private static final int d
+    private static final int e
+    private static final int f
+    private static final int g
+com.feedback.ui.c:
+    java.lang.String c
+com.feedback.ui.g:
+    org.json.JSONArray d
+    java.lang.String[] e
+    public com.feedback.a.e a(int)
+com.mobclick.android.Gender
+com.mobclick.android.MobclickAgent:
+    private static final int e
+    private static final int f
+    private static final int g
+    private static final int h
+    private static synthetic int[] l
+    public static org.json.JSONObject getUpdateInfo()
+    public static void setAutoLocation(boolean)
+    public static void setUpdateOnlyWifi(boolean)
+    public static void setUpdateListener(com.mobclick.android.UmengUpdateListener)
+    public static void setOnlineConfigureListener(com.mobclick.android.UmengOnlineConfigureListener)
+    public static void openActivityDurationTrack(boolean)
+    public static boolean isDownloadingAPK()
+    public static void setDebugMode(boolean)
+    public static void setDefaultReportPolicy(android.content.Context,int)
+    public static void reportError(android.content.Context,java.lang.String)
+    public static void flush(android.content.Context)
+    public static void update(android.content.Context,java.lang.String)
+    public static void onEvent(android.content.Context,java.lang.String)
+    public static void onEvent(android.content.Context,java.lang.String,int)
+    public static void onEvent(android.content.Context,java.lang.String,java.lang.String)
+    public static void onEvent(android.content.Context,java.lang.String,java.lang.String,int)
+    public static void enterPage(android.content.Context,java.lang.String)
+    private synchronized void d(android.content.Context)
+    private void e(android.content.Context)
+    private org.json.JSONArray a(org.json.JSONObject,org.json.JSONArray)
+    public static void setOpenGLContext(javax.microedition.khronos.opengles.GL10)
+    public static java.lang.String getConfigParams(android.content.Context,java.lang.String)
+    private static java.lang.String o(android.content.Context)
+    private static void a(android.content.Context,int)
+    public static void updateOnlineConfig(android.content.Context,java.lang.String)
+    public static void updateOnlineConfig(android.content.Context)
+    private synchronized void f(android.content.Context,java.lang.String)
+    private static void a(android.content.Context,com.mobclick.android.Gender)
+    private static void b(android.content.Context,int)
+    private static void g(android.content.Context,java.lang.String)
+    static synthetic int[] b()
+com.mobclick.android.ReportPolicy
+com.mobclick.android.UmengConstants:
+    public static final java.lang.String OS
+    public static final java.lang.String SDK_TYPE
+    public static final java.lang.String SDK_VERSION
+    public static final long kContinueSessionMillis
+    public static final int DEFAULT_TIMEZONE
+    public static final java.lang.String LOG_TAG
+    public static final java.lang.String CONFIG_URL
+    public static final java.lang.String CONFIG_URL_BACK
+    public static final java.lang.String FEEDBACK_BASE_URL
+    public static final java.lang.String FEEDBACK_UER_REPLY_URL
+    public static final java.lang.String FEEDBACK_Dev_Reply_URL
+    public static final java.lang.String FEEDBACK_NewFeedback_URL
+    public static final java.lang.String FeedbackPreName
+    public static final java.lang.String PreName_Trivial
+    public static final java.lang.String TrivialPreKey_newreplyIds
+    public static final java.lang.String TrivialPreKey_MaxReplyID
+    public static final java.lang.String TrivialPreKey_Email
+    public static final java.lang.String TrivialPreKey_AgeGroup
+    public static final java.lang.String TrivialPreKey_Sex
+    public static final java.lang.String PreName_maxReplyIdOfFb
+    public static final java.lang.String AtomKey_Content
+    public static final java.lang.String AtomKey_Thread_Title
+    public static final java.lang.String AtomKey_Date
+    public static final java.lang.String AtomKey_User_ID
+    public static final java.lang.String AtomKey_FeedbackID
+    public static final java.lang.String AtomKey_ReplyId
+    public static final java.lang.String AtomKey_AgeGroup
+    public static final java.lang.String AtomKey_Sex
+    public static final java.lang.String AtomKey_Email
+    public static final java.lang.String AtomKey_AppKey
+    public static final java.lang.String AtomKey_Index
+    public static final java.lang.String AtomKey_Lat
+    public static final java.lang.String AtomKey_Lng
+    public static final java.lang.String AtomKey_Message
+    public static final java.lang.String AtomKey_SDK_Version
+    public static final java.lang.String AtomKey_AppVersion
+    public static final java.lang.String AtomKey_OSVersion
+    public static final java.lang.String AtomKey_DeviceModel
+    public static final java.lang.String AtomKeyReplyId
+    public static final java.lang.String AtomKey_State
+    public static final java.lang.String Atom_State_Error
+    public static final java.lang.String Atom_State_OK
+    public static final java.lang.String AtomKey_Type
+    public static final java.lang.String Atom_Type_UserReply
+    public static final java.lang.String Atom_Type_NewFeedback
+    public static final java.lang.String Atom_Type_DevReply
+    public static final java.lang.String Atom_Type_Responce
+    public static final java.lang.String FailState
+    public static final java.lang.String TempState
+    public static final java.lang.String OKState
+    public static final java.lang.String PostFeedbackBroadcast
+    public static final java.lang.String PostFeedbackBroadcast_Fail
+    public static final java.lang.String PostFeedbackBroadcast_Succeed
+    public static final java.lang.String RetrieveReplyBroadcastAction
+    public static final int RetrieveReplyBroadcast_Fail
+    public static final int RetrieveReplyBroadcast_HasReply
+    public static final int RetrieveReplyBroadcast_NoReply
+    public static final java.lang.String HasNewReplyBroadcast
+    public static final int HasNewReplyBroadcast_Yes
+    public static final int HasNewReplyBroadcast_No
+    public static final java.lang.String PostFeedbackBroadcastAction
+    public static final java.lang.String NewReplyNotifyType
+    public static final int NotificationBanner
+    public static final int NotificationPopout
+    public static final java.lang.String NewReplyContent
+    public static final java.lang.String Online_Config_Local_Policy
+    public static final java.lang.String Online_Config_Net_Policy
+    public static final java.lang.String Online_Config_Last_Modify
+com.mobclick.android.a:
+    public boolean a()
+    public void a(java.lang.String)
+    public void b(java.lang.String)
+    public void a(int)
+    public void a(boolean)
+com.mobclick.android.j:
+    j(android.content.Context,java.lang.String,java.lang.String,java.lang.String,int,int)
+com.mobclick.android.l:
+    public static java.lang.String b(java.lang.String)
+    public static java.lang.String[] a(javax.microedition.khronos.opengles.GL10)
+    public static int a(java.util.Date,java.util.Date)
+    public static java.util.Date d(android.content.Context)
+    public static void a(android.content.Context,java.util.Date)
+    public static java.lang.String a(org.json.JSONObject)
+    public static java.lang.String b(org.json.JSONObject)
+com.tyt.bbs.ArticleActivity:
+    private static final int DIALOG_REPLAY
+    private static final int DIALOG_LOGIN
+    private static final int DIALOG_ZHUANTIE
+    protected static final int NEED_LOGIN
+    protected static final int REFRESH_LIST
+    protected static final int POST_ON
+    protected static final int LOAD_IMAGE
+com.tyt.bbs.FavoriteActivity:
+    213:223:public java.lang.String getFromAssets(java.lang.String)
+com.tyt.bbs.FileListActivity:
+    public static final int TEXT_CHANGE
+com.tyt.bbs.LoginActivity:
+    private static final java.lang.String TAG
+com.tyt.bbs.MainActivity:
+    private static final int DIALOG_NAVIGATION
+com.tyt.bbs.MessageActivity:
+    private static final int DIALOG_REPLAY
+com.tyt.bbs.PaintAcitivity:
+    private static final int DIALOG_LOGIN
+com.tyt.bbs.PaintAcitivity$MyView:
+    private static final float MINP
+    private static final float MAXP
+    private static final float TOUCH_TOLERANCE
+com.tyt.bbs.ProfileActivity:
+    java.lang.String pswd
+com.tyt.bbs.R$anim
+com.tyt.bbs.R$array
+com.tyt.bbs.R$attr
+com.tyt.bbs.R$color
+com.tyt.bbs.R$drawable
+com.tyt.bbs.R$id
+com.tyt.bbs.R$layout
+com.tyt.bbs.R$menu
+com.tyt.bbs.R$string
+com.tyt.bbs.R$style
+com.tyt.bbs.R$styleable:
+    public static final int CircleFlowIndicator_activeColor
+    public static final int CircleFlowIndicator_activeType
+    public static final int CircleFlowIndicator_centered
+    public static final int CircleFlowIndicator_fadeOut
+    public static final int CircleFlowIndicator_inactiveColor
+    public static final int CircleFlowIndicator_inactiveType
+    public static final int CircleFlowIndicator_radius
+    public static final int TitleFlowIndicator_clipPadding
+    public static final int TitleFlowIndicator_footerColor
+    public static final int TitleFlowIndicator_footerLineHeight
+    public static final int TitleFlowIndicator_footerTriangleHeight
+    public static final int TitleFlowIndicator_selectedBold
+    public static final int TitleFlowIndicator_selectedColor
+    public static final int TitleFlowIndicator_selectedSize
+    public static final int TitleFlowIndicator_textColor
+    public static final int TitleFlowIndicator_textSize
+    public static final int TitleFlowIndicator_titlePadding
+    public static final int ViewFlow_sidebuffer
+com.tyt.bbs.R$xml
+com.tyt.bbs.RecommendActivity:
+    public static final java.lang.String TAG
+com.tyt.bbs.TopTenActivity:
+    public static final java.lang.String TAG
+com.tyt.bbs.adapter.ArticelAdapter:
+    140:141:public void clear()
+    148:148:public java.util.ArrayList getListArticels()
+    156:157:public void setListArticels(java.util.ArrayList)
+com.tyt.bbs.adapter.BoardsAdapter:
+    69:69:public java.lang.String[] getBoards()
+com.tyt.bbs.adapter.CollectionAdapter
+com.tyt.bbs.adapter.CollectionAdapter$ItemViewHolder
+com.tyt.bbs.adapter.DiffMsgAdapter:
+    private static final int MAX_COUNT
+com.tyt.bbs.adapter.FavAdapter:
+    46:47:public void addChecked(int)
+com.tyt.bbs.adapter.ListFileAdapter:
+    72:76:public void setAllCheckd()
+    181:181:public java.util.List getmSubFile()
+    187:188:public void setmSubFile(java.util.List)
+com.tyt.bbs.adapter.MsgListAdapter$MyImgGetter:
+    117:117:public com.tyt.bbs.entity.MessageItem getItem()
+com.tyt.bbs.adapter.TopTenAdapter:
+    private static final java.lang.String TAG
+com.tyt.bbs.dialog.ColorPickerDialog$ColorPickerView:
+    private static final float PI
+    196:196:public int getColor()
+    199:200:public void setColor(int)
+com.tyt.bbs.entity.ArticleItem:
+    private java.lang.String page
+    46:47:public void setPage(java.lang.String)
+    50:50:public java.lang.String getPage()
+    54:55:public void setImageCache(java.util.Map)
+com.tyt.bbs.entity.Image
+com.tyt.bbs.entity.MessageItem:
+    82:83:public void setImageCache(java.util.Map)
+com.tyt.bbs.entity.TopicItem:
+    68:68:public int getCategory()
+com.tyt.bbs.parser.PostParser:
+    158:158:public java.lang.String getPrelink()
+    165:165:public java.lang.String getNextlink()
+com.tyt.bbs.parser.TopTenParser:
+    private static final java.lang.String TAG
+com.tyt.bbs.parser.WebTopTenParser:
+    private java.lang.String urlMoreArticle
+com.tyt.bbs.provider.DataColums:
+    public static final java.lang.String CONTENT
+    public static final java.lang.String AUTHORITY
+    private static final java.lang.String TYPE_PRIMARY_KEY
+    private static final java.lang.String TYPE_TEXT
+com.tyt.bbs.provider.DataColums$PostData:
+    public static final java.lang.String CONTENT_TYPE
+    public static final java.lang.String CONTENT_ITEM_TYPE
+    public static final java.lang.String DEFAULT_SORT_ORDER
+    public static final java.lang.String AUTHOR
+    public static final java.lang.String TIME
+    public static final java.lang.String BOARD
+    public static final java.lang.String TITLE
+    public static final java.lang.String TEXT
+    public static final java.lang.String LINK
+    public static final java.lang.String REID
+    67:67:public static final android.net.Uri CONTENT_URI(long)
+com.tyt.bbs.provider.DataContentProvider:
+    private static final java.lang.String TAG
+    private static final java.lang.String DATABASE_NAME
+    private static final int DATABASE_VERSION
+    private static final java.lang.String TABLE_NAME
+    private static final int POSTS
+    private static final int POST_ID
+com.tyt.bbs.provider.DatabaseHelper:
+    private static final java.lang.String DATABASE_NAME
+    private static final int DATABASE_VERSION
+    private static final java.lang.String TABLE_NAME
+    private static final java.lang.String TAG
+    135:141:public synchronized void close()
+com.tyt.bbs.utils.CustomHttpClient:
+    private static final java.lang.String CHARSET
+com.tyt.bbs.utils.FileOperate:
+    178:201:public static java.io.File readPicFromSDcard(java.lang.String)
+com.tyt.bbs.utils.ImageOperate:
+    32:39:public static android.graphics.Bitmap getFile2Bitmap(java.io.File,android.graphics.BitmapFactory$Options)
+    74:83:public static android.graphics.Bitmap imageScale(android.graphics.Bitmap,int)
+    118:131:public static android.graphics.Bitmap getRCB(android.graphics.Bitmap,float)
+com.tyt.bbs.utils.ImageOperate$ImageFilenameFilter
+com.tyt.bbs.utils.Net:
+    private static final java.lang.String TAG
+    144:153:public java.lang.String GMTString()
+    158:179:public boolean getMsgMarkread(java.lang.String)
+    382:406:public java.lang.String post(java.lang.String,java.lang.String)
+    455:536:public static java.lang.String post(android.content.Context,java.lang.String,java.util.Map,java.util.List)
+com.tyt.bbs.utils.PubDateParser
+com.tyt.bbs.view.LoadingDrawable:
+    public static final int SIZE_SMALL
+    public static final int SIZE_MEDIUM
+    public static final int SIZE_LARGE
+    private static final int DURATION
+    private static final int SPACE_SMALL
+    private static final int SPACE_SMALL_H
+    private static final int SPACE_MEDIUM
+    private static final int SPACE_MEDIUM_H
+    private static final int SPACE_LARGE
+    private static final int SPACE_LARGE_H
+    private static final int WIDTH_SMALL
+    private static final int HEIGHT_SMALL
+    private static final int WIDTH_MEDIUM
+    private static final int HEIGHT_MEDIUM
+    private static final int WIDTH_LARGE
+    private static final int HEIGHT_LARGE
+    private static final int BLOCK_NUMBER
+com.tyt.bbs.view.PullToRefreshListView:
+    private static final int TAP_TO_REFRESH
+    private static final int PULL_TO_REFRESH
+    private static final int RELEASE_TO_REFRESH
+    private static final int REFRESHING
+    private static final java.lang.String TAG
+    149:150:public void setOnRefreshListener(com.tyt.bbs.view.PullToRefreshListView$OnRefreshListener)
+    157:163:public void setLastUpdated(java.lang.CharSequence)
+    363:365:public void onRefreshComplete(java.lang.CharSequence)
+    371:381:public void onRefreshComplete()
+com.tyt.bbs.view.TitleFlowIndicator:
+    private static final float TITLE_PADDING
+    private static final float CLIP_PADDING
+    private static final int SELECTED_COLOR
+    private static final boolean SELECTED_BOLD
+    private static final int TEXT_COLOR
+    private static final int TEXT_SIZE
+    private static final float FOOTER_LINE_HEIGHT
+    private static final int FOOTER_COLOR
+    private static final float FOOTER_TRIANGLE_HEIGHT
+com.tyt.bbs.view.ViewFlow:
+    private static final int SNAP_VELOCITY
+    private static final int INVALID_SCREEN
+    private static final int TOUCH_STATE_REST
+    private static final int TOUCH_STATE_SCROLLING
+    109:112:public ViewFlow(android.content.Context,int)
+    132:136:public void onConfigurationChanged(android.content.res.Configuration)
+    139:139:public int getViewsCount()
+org.apache.http.entity.mime.Header:
+    68:68:public java.util.List getFields()
+    84:92:public java.util.List getFields(java.lang.String)
+    97:106:public int removeFields(java.lang.String)
+    110:133:public void setField(org.apache.http.entity.mime.MinimalField)
+org.apache.http.entity.mime.HttpMultipart:
+    138:139:public HttpMultipart(java.lang.String,java.nio.charset.Charset,java.lang.String)
+    142:143:public HttpMultipart(java.lang.String,java.lang.String)
+    146:146:public java.lang.String getSubType()
+    150:150:public java.nio.charset.Charset getCharset()
+    154:154:public org.apache.http.entity.mime.HttpMultipartMode getMode()
+org.apache.http.entity.mime.MIME:
+    public static final java.lang.String CONTENT_TYPE
+    public static final java.lang.String CONTENT_TRANSFER_ENC
+    public static final java.lang.String CONTENT_DISPOSITION
+    public static final java.lang.String ENC_8BIT
+    public static final java.lang.String ENC_BINARY
+org.apache.http.entity.mime.MultipartEntity:
+    93:94:public MultipartEntity(org.apache.http.entity.mime.HttpMultipartMode)
+org.apache.http.entity.mime.content.AbstractContentBody:
+    61:61:public java.lang.String getMediaType()
+    65:65:public java.lang.String getSubType()
+org.apache.http.entity.mime.content.ByteArrayBody
+org.apache.http.entity.mime.content.ContentDescriptor:
+    public abstract java.lang.String getMediaType()
+    public abstract java.lang.String getSubType()
+org.apache.http.entity.mime.content.FileBody:
+    85:85:public java.io.InputStream getInputStream()
+    93:94:public void writeTo(java.io.OutputStream,int)
+    130:130:public java.io.File getFile()
+org.apache.http.entity.mime.content.InputStreamBody
+org.apache.http.entity.mime.content.StringBody:
+    58:60:public static org.apache.http.entity.mime.content.StringBody create(java.lang.String,java.lang.String,java.nio.charset.Charset)
+    69:69:public static org.apache.http.entity.mime.content.StringBody create(java.lang.String,java.nio.charset.Charset)
+    76:76:public static org.apache.http.entity.mime.content.StringBody create(java.lang.String)
+    113:114:public StringBody(java.lang.String,java.nio.charset.Charset)
+    130:130:public java.io.Reader getReader()
+    140:141:public void writeTo(java.io.OutputStream,int)
+org.jsoup.Connection
+org.jsoup.Connection$Base
+org.jsoup.Connection$KeyVal
+org.jsoup.Connection$Method
+org.jsoup.Connection$Request
+org.jsoup.Connection$Response
+org.jsoup.Jsoup:
+    31:31:public static org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)
+    59:59:public static org.jsoup.Connection connect(java.lang.String)
+    74:74:public static org.jsoup.nodes.Document parse(java.io.File,java.lang.String,java.lang.String)
+    89:89:public static org.jsoup.nodes.Document parse(java.io.File,java.lang.String)
+    104:104:public static org.jsoup.nodes.Document parse(java.io.InputStream,java.lang.String,java.lang.String)
+    117:117:public static org.jsoup.nodes.Document parseBodyFragment(java.lang.String,java.lang.String)
+    129:129:public static org.jsoup.nodes.Document parseBodyFragment(java.lang.String)
+    147:149:public static org.jsoup.nodes.Document parse(java.net.URL,int)
+    164:167:public static java.lang.String clean(java.lang.String,java.lang.String,org.jsoup.safety.Whitelist)
+    181:181:public static java.lang.String clean(java.lang.String,org.jsoup.safety.Whitelist)
+    193:195:public static boolean isValid(java.lang.String,org.jsoup.safety.Whitelist)
+org.jsoup.examples.ListLinks
+org.jsoup.examples.package-info
+org.jsoup.helper.DataUtil
+org.jsoup.helper.HttpConnection
+org.jsoup.helper.HttpConnection$Base
+org.jsoup.helper.HttpConnection$KeyVal
+org.jsoup.helper.HttpConnection$Request
+org.jsoup.helper.HttpConnection$Response
+org.jsoup.helper.StringUtil:
+    20:20:public static java.lang.String join(java.util.Collection,java.lang.String)
+    30:42:public static java.lang.String join(java.util.Iterator,java.lang.String)
+org.jsoup.helper.Validate:
+    25:27:public static void notNull(java.lang.Object,java.lang.String)
+org.jsoup.nodes.Attribute:
+    41:43:public void setKey(java.lang.String)
+    100:100:protected boolean isDataAttribute()
+org.jsoup.nodes.Attributes:
+    protected static final java.lang.String dataPrefix
+    60:62:public void remove(java.lang.String)
+    78:78:public int size()
+    86:87:public void addAll(org.jsoup.nodes.Attributes)
+    112:112:public java.util.Map dataset()
+    219:219:private static java.lang.String dataKey(java.lang.String)
+    20:20:static synthetic java.util.LinkedHashMap access$1(org.jsoup.nodes.Attributes)
+    218:218:static synthetic java.lang.String access$2(java.lang.String)
+org.jsoup.nodes.Attributes$Dataset
+org.jsoup.nodes.Attributes$Dataset$DatasetIterator
+org.jsoup.nodes.Attributes$Dataset$EntrySet
+org.jsoup.nodes.Comment:
+    private static final java.lang.String COMMENT_KEY
+org.jsoup.nodes.DataNode:
+    private static final java.lang.String DATA_KEY
+    38:39:public org.jsoup.nodes.DataNode setWholeData(java.lang.String)
+    59:60:public static org.jsoup.nodes.DataNode createFromEncoded(java.lang.String,java.lang.String)
+org.jsoup.nodes.Document:
+    66:67:public java.lang.String title()
+    76:83:public void title(java.lang.String)
+    91:91:public org.jsoup.nodes.Element createElement(java.lang.String)
+    187:188:public org.jsoup.nodes.Element text(java.lang.String)
+org.jsoup.nodes.Document$OutputSettings:
+    233:234:public org.jsoup.nodes.Document$OutputSettings escapeMode(org.jsoup.nodes.Entities$EscapeMode)
+    246:246:public java.nio.charset.Charset charset()
+    290:291:public org.jsoup.nodes.Document$OutputSettings prettyPrint(boolean)
+    308:310:public org.jsoup.nodes.Document$OutputSettings indentAmount(int)
+org.jsoup.nodes.Element:
+    105:106:public org.jsoup.nodes.Element attr(java.lang.String,java.lang.String)
+    123:123:public java.util.Map dataset()
+    261:263:public org.jsoup.nodes.Element appendText(java.lang.String)
+    273:275:public org.jsoup.nodes.Element prependText(java.lang.String)
+    285:289:public org.jsoup.nodes.Element append(java.lang.String)
+    299:303:public org.jsoup.nodes.Element prepend(java.lang.String)
+    313:314:public org.jsoup.nodes.Element before(java.lang.String)
+    324:325:public org.jsoup.nodes.Element after(java.lang.String)
+    329:334:private void addSiblingHtml(int,java.lang.String)
+    341:342:public org.jsoup.nodes.Element empty()
+    351:371:public org.jsoup.nodes.Element wrap(java.lang.String)
+    375:379:private org.jsoup.nodes.Element getDeepChild(org.jsoup.nodes.Element)
+    387:387:public org.jsoup.select.Elements siblingElements()
+    429:430:public org.jsoup.nodes.Element firstElementSibling()
+    448:449:public org.jsoup.nodes.Element lastElementSibling()
+    806:812:public org.jsoup.nodes.Element text(java.lang.String)
+    820:831:public boolean hasText()
+    839:851:public java.lang.String data()
+    883:885:public org.jsoup.nodes.Element classNames(java.util.Set)
+    903:909:public org.jsoup.nodes.Element addClass(java.lang.String)
+    918:924:public org.jsoup.nodes.Element removeClass(java.lang.String)
+    933:942:public org.jsoup.nodes.Element toggleClass(java.lang.String)
+    950:953:public java.lang.String val()
+    962:966:public org.jsoup.nodes.Element val(java.lang.String)
+    1016:1018:public org.jsoup.nodes.Element html(java.lang.String)
+    1:1:public bridge synthetic org.jsoup.nodes.Node attr(java.lang.String,java.lang.String)
+org.jsoup.nodes.Node:
+    84:84:public org.jsoup.nodes.Attributes attributes()
+    94:95:public org.jsoup.nodes.Node attr(java.lang.String,java.lang.String)
+    114:116:public org.jsoup.nodes.Node removeAttr(java.lang.String)
+    202:202:protected org.jsoup.nodes.Node[] childNodesAsArray()
+    239:242:public void replaceWith(org.jsoup.nodes.Node)
+    251:261:protected void replaceChild(org.jsoup.nodes.Node,org.jsoup.nodes.Node)
+    307:307:public java.util.List siblingNodes()
+    332:338:public org.jsoup.nodes.Node previousSibling()
+org.jsoup.nodes.TextNode:
+    private static final java.lang.String TEXT_KEY
+    40:40:public java.lang.String text()
+    49:52:public org.jsoup.nodes.TextNode text(java.lang.String)
+    128:129:public org.jsoup.nodes.Attributes attributes()
+    134:135:public org.jsoup.nodes.Node attr(java.lang.String,java.lang.String)
+    146:147:public org.jsoup.nodes.Node removeAttr(java.lang.String)
+org.jsoup.nodes.XmlDeclaration:
+    private static final java.lang.String DECL_KEY
+org.jsoup.nodes.package-info
+org.jsoup.package-info
+org.jsoup.parser.Parser:
+    private static final java.lang.String SQ
+    private static final java.lang.String DQ
+    64:65:public static org.jsoup.nodes.Document parseBodyFragment(java.lang.String,java.lang.String)
+    76:78:public static org.jsoup.nodes.Document parseBodyFragmentRelaxed(java.lang.String,java.lang.String)
+org.jsoup.parser.Tag:
+    135:135:public boolean canContainBlock()
+    143:143:public boolean isInline()
+org.jsoup.parser.TokenQueue:
+    50:51:public void addFirst(java.lang.Character)
+    59:61:public void addFirst(java.lang.String)
+    327:330:public java.lang.String consumeWord()
+org.jsoup.parser.package-info
+org.jsoup.safety.Cleaner
+org.jsoup.safety.Cleaner$ElementMeta
+org.jsoup.safety.Whitelist
+org.jsoup.safety.Whitelist$AttributeKey
+org.jsoup.safety.Whitelist$AttributeValue
+org.jsoup.safety.Whitelist$Protocol
+org.jsoup.safety.Whitelist$TagName
+org.jsoup.safety.Whitelist$TypedValue
+org.jsoup.safety.package-info
+org.jsoup.select.Elements:
+    28:29:public varargs Elements(org.jsoup.nodes.Element[])
+    53:57:public boolean hasAttr(java.lang.String)
+    67:70:public org.jsoup.select.Elements attr(java.lang.String,java.lang.String)
+    79:82:public org.jsoup.select.Elements removeAttr(java.lang.String)
+    91:94:public org.jsoup.select.Elements addClass(java.lang.String)
+    103:106:public org.jsoup.select.Elements removeClass(java.lang.String)
+    115:118:public org.jsoup.select.Elements toggleClass(java.lang.String)
+    127:131:public boolean hasClass(java.lang.String)
+    140:143:public java.lang.String val()
+    152:154:public org.jsoup.select.Elements val(java.lang.String)
+    176:180:public boolean hasText()
+    190:196:public java.lang.String html()
+    232:235:public org.jsoup.select.Elements html(java.lang.String)
+    245:248:public org.jsoup.select.Elements prepend(java.lang.String)
+    258:261:public org.jsoup.select.Elements append(java.lang.String)
+    271:274:public org.jsoup.select.Elements before(java.lang.String)
+    284:287:public org.jsoup.select.Elements after(java.lang.String)
+    300:304:public org.jsoup.select.Elements wrap(java.lang.String)
+    319:322:public org.jsoup.select.Elements empty()
+    366:367:public org.jsoup.select.Elements not(java.lang.String)
+    378:378:public org.jsoup.select.Elements eq(int)
+    387:388:public boolean is(java.lang.String)
+    396:400:public org.jsoup.select.Elements parents()
+org.jsoup.select.package-info

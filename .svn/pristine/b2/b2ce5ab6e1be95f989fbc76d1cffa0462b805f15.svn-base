@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="topictitle">#80000000</color>
+    <color name="replytitle">#AEE9AB</color>
+    <color name="board">#337fd3</color>
+    <color name="time">#FFAA55</color>
+    <color name="id">#C28DE3</color>
+    <color name="text">#337fd3</color>
+    <color name="list_background">#8EA9DF</color>
+    <color name="list_line">#B6E4D5</color>
+    <color name="select_write">#60ffffff</color>
+    <color name="select_black">#40000000</color>
+    <color name="divider">#50000000</color>
+    <color name="grayblue">#4C566C</color>
+    <color name="graywrite">#f7f3f7</color>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/setting" >
+
+    <PreferenceCategory android:title="@string/setting" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="autologin"
+            android:title="@string/automaticlogin" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="post.tail"
+            android:title="@string/setting_tail" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="post.prefix"
+            android:summaryOff="@string/hasnot"
+            android:summaryOn="@string/has"
+            android:title="@string/setting_prefix" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="store.image"
+            android:summaryOff="@string/setting_loadimg_off"
+            android:summaryOn="@string/setting_loadimg_on"
+            android:title="@string/setting_loadimg" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="store.image"
+            android:key="store.image"
+            android:summaryOff="@string/setting_storeimg_off"
+            android:summaryOn="@string/setting_storeimg_on"
+            android:title="@string/setting_storeimg" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="quote"
+            android:summaryOff="@string/setting_quote_off"
+            android:summaryOn="@string/setting_quote_on"
+            android:title="@string/setting_quote" />
+
+        <com.tyt.bbs.preference.DialogPreference
+            android:dialogIcon="@drawable/icon"
+            android:dialogLayout="@layout/dialog_about"
+            android:dialogMessage="@string/aboutInfo"
+            android:dialogTitle="@string/app_about"
+            android:negativeButtonText="@null"
+            android:title="@string/setting_about" />
+    </PreferenceCategory>
+
+    <PreferenceScreen
+        android:key="app.feedback"
+        android:title="@string/setting_feedback" >
+        <intent
+            android:action="android.intent.action.SENDTO"
+            android:data="mailto:tank.tyt@gmail.com" />
+    </PreferenceScreen>
+
+</PreferenceScreen>

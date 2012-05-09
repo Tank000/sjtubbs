@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RelativeLayout
+		android:id="@+id/article"
+		android:layout_height="wrap_content" 
+		 android:layout_width="fill_parent" 
+		 android:gravity="top">
+		<TextView
+			android:id="@+id/textView_author"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@color/id"
+						android:textSize="10dip"
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="5dip"
+			 android:layout_marginTop="2dip"></TextView>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@color/time"
+			android:textSize="10dip"
+			android:id="@+id/textView_time"
+			android:layout_alignTop="@id/textView_author"
+			android:layout_alignBottom="@id/textView_author"
+			android:layout_alignParentRight="true"
+			 android:layout_marginRight="5dip"></TextView>
+		<TextView
+			android:id="@+id/textView_article"
+			android:autoLink="web"
+			android:layout_below="@+id/textView_time"
+			android:textColor="#d0000000"
+			android:layout_alignParentLeft="true"
+			android:layout_width="fill_parent"
+			android:gravity="top" 
+			android:layout_height="wrap_content" 
+			android:layout_margin="5dip" >
+			<requestFocus />
+		</TextView>
+		
+	</RelativeLayout>
+</RelativeLayout>

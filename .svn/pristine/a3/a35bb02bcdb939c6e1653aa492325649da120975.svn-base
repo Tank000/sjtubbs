@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#a0000000"
+  android:orientation="vertical">
+  <LinearLayout 
+   	  android:id="@+id/topbar"
+   	  android:layout_width="fill_parent"
+  	  android:layout_height="40dip"
+  	  android:gravity="center_vertical"
+  	  android:background="@drawable/bg_topbar">
+  	  <Button 
+  	  	  style="@style/Button"
+  	  	  android:id="@+id/btn_back"
+	  	  android:layout_width="52.5dip"
+	  	  android:layout_height="35dip"
+	  	  android:background="@drawable/bg_btnleft"
+	  	  android:text="@string/back"
+	  	  android:layout_weight="1"/>
+	  <TextView 
+	  	  android:layout_width="wrap_content"
+	  	  android:layout_height="wrap_content"
+	  	  android:textColor="#000000"
+	  	  android:gravity="center"
+	  	  android:text="好文收集"
+	  	  android:textSize="20dip"
+	  	  android:layout_gravity="center"
+	  	  android:layout_weight="5"
+	  	  android:id="@+id/tv_Info"/>
+  	  </LinearLayout>	
+		<ProgressBar
+			android:id="@+id/progress"
+			android:visibility="gone"
+			android:layout_gravity="center_horizontal"
+			android:indeterminateOnly="true"
+			android:layout_width="80dip"
+			android:layout_height="10dip"
+			/>
+	<ListView
+		android:id="@+id/listview_collection"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		 android:divider="@null"
+		android:cacheColorHint="#00000000"
+		android:alwaysDrawnWithCache="true"
+		android:drawingCacheQuality="high">
+	</ListView>
+	
+</LinearLayout>

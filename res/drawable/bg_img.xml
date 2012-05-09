@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="true">
+		<shape>
+			<solid android:color="#20337fd4" />
+			<corners android:topLeftRadius="8dip"
+				android:bottomLeftRadius="8dip" android:topRightRadius="0dip"
+				android:bottomRightRadius="0dip" />
+			<stroke android:width="2.0dip" android:color="#337fd4" />
+			<padding android:left="2dip" android:right="2dip"
+				android:top="2dip" android:bottom="2dip" />
+		</shape>
+	</item>
+
+	<item android:state_focused="true">
+		<shape>
+			<solid android:color="#20337fd4" />
+			<corners android:topLeftRadius="8dip"
+				android:bottomLeftRadius="8dip" android:topRightRadius="0dip"
+				android:bottomRightRadius="0dip" />
+			<stroke android:width="2.0dip" android:color="#337fd4" />
+			<padding android:left="2dip" android:right="2dip"
+				android:top="2dip" android:bottom="2dip" />
+		</shape>
+	</item>
+	<item>
+		<shape>
+			<solid android:color="#10000000" />
+			<corners android:topLeftRadius="8dip"
+				android:bottomLeftRadius="8dip" android:topRightRadius="0dip"
+				android:bottomRightRadius="0dip" />
+			<stroke android:width="2.0dip" android:color="#FFFFFF" />
+			<padding android:left="2dip" android:right="2dip"
+				android:top="2dip" android:bottom="2dip" />
+		</shape>
+	</item>
+</selector>

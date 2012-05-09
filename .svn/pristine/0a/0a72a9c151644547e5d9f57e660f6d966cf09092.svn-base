@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tyt="http://schemas.android.com/apk/res/com.taguage.activity">
+	<com.taguage.preference.IconPreference
+		android:key="favorate" 
+		tyt:icon="@drawable/icon_settings"
+		android:title="@string/menu_preference" />
+	<com.taguage.preference.IconPreference
+		android:key="namecard" 
+		tyt:icon="@drawable/icon_namecard"
+		android:title="@string/menu_name_card" />
+	<com.taguage.preference.IconPreference
+		android:key="message" 
+		tyt:icon="@drawable/icon_msg"
+		android:title="@string/menu_messages" />
+	<com.taguage.preference.IconPreference
+		android:key="invite" 
+		tyt:icon="@drawable/icon_invite"
+		android:title="@string/menu_invitation" />
+	<com.taguage.preference.IconPreference
+		android:key="update" 
+		tyt:icon="@drawable/icon_update"
+		android:title="@string/menu_check_update" />
+</PreferenceScreen>

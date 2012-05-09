@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/m_typeswitch" 
+		android:icon="@android:drawable/ic_menu_agenda"
+		android:title="@string/typewsitch" />
+	<item
+		android:id="@+id/m_refresh" 
+		android:icon="@android:drawable/ic_menu_rotate"
+		android:title="@string/refresh" />
+	
+	<item
+		android:id="@+id/m_post" 
+		android:icon="@android:drawable/ic_menu_add"
+		android:title="@string/post" />		
+	
+	<item
+		android:id="@+id/m_fav_board" 
+		android:icon="@android:drawable/ic_menu_save"
+		android:title="@string/fav_board" />		
+</menu>

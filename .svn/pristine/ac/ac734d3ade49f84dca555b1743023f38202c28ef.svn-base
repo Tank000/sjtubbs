@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <ProgressBar
+        android:id="@+id/progressbar_newmsg"
+        android:layout_width="80dip"
+        android:layout_height="10dip"
+        android:layout_gravity="center"
+        android:indeterminateOnly="true" />
+
+    <ListView
+        android:id="@+id/lv_newmsg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </ListView>
+
+</LinearLayout>
