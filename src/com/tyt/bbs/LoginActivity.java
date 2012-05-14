@@ -43,8 +43,8 @@ public class LoginActivity extends BaseActivity implements OnClickListener{
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-//		MobclickAgent.onError(this);
-//		MobclickAgent.update(this);
+		MobclickAgent.onError(this);
+		MobclickAgent.update(this);
 		setContentView(R.layout.a_login);
 		Property.ScreenWidth=getResources().getDisplayMetrics().widthPixels;
 		Property.Ratio = getResources().getDisplayMetrics().densityDpi/160.0;

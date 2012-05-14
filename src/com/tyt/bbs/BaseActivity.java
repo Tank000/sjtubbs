@@ -4,6 +4,8 @@
 package com.tyt.bbs;
 
 
+import com.mobclick.android.MobclickAgent;
+
 import android.app.Activity;
 
 /**
@@ -19,6 +21,7 @@ public class BaseActivity extends Activity {
 	protected void onResume() {
 		// TODO Auto-generated method stub
 		super.onResume();
+		 MobclickAgent.onResume(this);
 	}
 
 	/* (non-Javadoc)
@@ -28,6 +31,7 @@ public class BaseActivity extends Activity {
 	protected void onPause() {
 		// TODO Auto-generated method stub
 		super.onPause();
+		 MobclickAgent.onPause(this);
 	}
 
 }
