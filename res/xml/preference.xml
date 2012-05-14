@@ -19,7 +19,7 @@
             android:title="@string/setting_prefix" />
         <CheckBoxPreference
             android:defaultValue="true"
-            android:key="store.image"
+            android:key="show.image"
             android:summaryOff="@string/setting_loadimg_off"
             android:summaryOn="@string/setting_loadimg_on"
             android:title="@string/setting_loadimg" />

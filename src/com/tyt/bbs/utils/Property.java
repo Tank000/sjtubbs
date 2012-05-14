@@ -34,6 +34,8 @@ public class Property {
 	
 	public  static String Store_Image="store.image";
 	
+	public  static String Show_Image="show.image";
+	
 	public static String Tail="\n                          \033[32m——本贴来自\033[36m水源客户端\033[m";
 	
 	public static String ReplayMark="Re: ";

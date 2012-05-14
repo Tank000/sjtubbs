@@ -310,7 +310,9 @@ public class ArticleActivity  extends BaseActivity implements OnClickListener {
 			mProgressBar.setVisibility(View.VISIBLE);
 			mArticleList.setClickable(false);
 			if(mParser==null)
-				mParser =  new ArticleParser(articleUrl,handler,sp.getBoolean(Property.Store_Image, true));
+				mParser =  new ArticleParser(articleUrl,handler,
+						sp.getBoolean(Property.Store_Image, true),
+						sp.getBoolean(Property.Show_Image, true));
 			mParser.setMode(0);
 			try {
 				fullText= mParser.parser();
@@ -338,7 +340,10 @@ public class ArticleActivity  extends BaseActivity implements OnClickListener {
 
 		@Override
 		protected Void doInBackground(String... URL) {
-			mParser = new ArticleParser(articleUrl,handler,sp.getBoolean(Property.Store_Image, false));
+			if(mParser==null)
+				mParser =  new ArticleParser(articleUrl,handler,
+						sp.getBoolean(Property.Store_Image, true),
+						sp.getBoolean(Property.Show_Image, true));
 			try {
 				fullText = mParser.parser();
 			} catch (Exception e) {

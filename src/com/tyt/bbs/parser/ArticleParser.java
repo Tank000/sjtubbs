@@ -25,14 +25,15 @@ public class ArticleParser {
 	private String articleUrl;
 	private ImageLoader  imageLoader;
 	private Handler handler;
-	private Boolean isStore;
+	private Boolean isStore,showImg;
 	private int parserMode;
 	
-	public ArticleParser(String Url,Handler handler,Boolean isStore) {
+	public ArticleParser(String Url,Handler handler,Boolean isStore,Boolean showImg) {
 		articleLists = new ArrayList<ArticleItem>() ;
 		articleUrl=Url;
 		this.handler =handler;
 		this.isStore= isStore;
+		this.showImg= showImg;
 		parserMode=0;
 		imageLoader= new ImageLoader();
 	}
@@ -117,29 +118,30 @@ public class ArticleParser {
 			String articletext = article.substring(0, article.length()-5);
 			if(articletext.contains(" onload=")) articletext = articletext.replace(" onload=\"if(this.width &gt; screen.width - 200){this.width = screen.width - 200}\"", "");
 			temp.setArticle(articletext);
-			
-			Html.fromHtml(articletext,new ImageGetter(){
+			if(showImg){
+				Html.fromHtml(articletext,new ImageGetter(){
 
-				private Drawable drawable;
-				@Override
-				public Drawable getDrawable(String source) {
-					// TODO Auto-generated method stub
-					final String imageUrl=source.contains("http")?source:Property.Base_URL+source;
-					imageLoader.loadDrawable(imageUrl,	isStore,temp.getImageCache(),new ImageLoader.ImageCallback() {
-						
-						@Override
-						public void imageLoaded(Drawable imageDrawable) {
-							// TODO Auto-generated method stub
-							drawable = imageDrawable;
-							Message message  = new Message();
-							message.what = 0x1;
-							handler.sendMessage(message);
-						}
-					});
-					return drawable;
-				}
-				
-			},null);
+					private Drawable drawable;
+					@Override
+					public Drawable getDrawable(String source) {
+						// TODO Auto-generated method stub
+						final String imageUrl=source.contains("http")?source:Property.Base_URL+source;
+						imageLoader.loadDrawable(imageUrl,	isStore,temp.getImageCache(),new ImageLoader.ImageCallback() {
+							
+							@Override
+							public void imageLoaded(Drawable imageDrawable) {
+								// TODO Auto-generated method stub
+								drawable = imageDrawable;
+								Message message  = new Message();
+								message.what = 0x1;
+								handler.sendMessage(message);
+							}
+						});
+						return drawable;
+					}
+					
+				},null);
+			}
 
 			articleLists.add(temp);
 		}

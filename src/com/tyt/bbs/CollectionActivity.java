@@ -169,7 +169,7 @@ public class CollectionActivity extends BaseActivity implements OnClickListener 
 
 		@Override
 		protected Void doInBackground(String... URL) {
-			mParser = new ArticleParser("",handler,false);
+			mParser = new ArticleParser("",handler,false,false);
 			try {
 				mParser.parser(fullText);
 			} catch (Exception e) {

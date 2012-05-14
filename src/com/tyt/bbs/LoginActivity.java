@@ -20,7 +20,7 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-//import com.mobclick.android.MobclickAgent;
+import com.mobclick.android.MobclickAgent;
 import com.tyt.bbs.entity.TopicItem;
 import com.tyt.bbs.parser.TopTenParser;
 import com.tyt.bbs.utils.FileOperate;
